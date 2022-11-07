@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T14:49:10.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S3GEyA0IHjq-FrucvQYV" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T14:49:17.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cSM-vtS1HqGL4fLAf0oM" version="20.5.3" type="github">
   <diagram id="b6iRTGSkP2T137ZtDrt-" name="Página-1">
     <mxGraphModel dx="1749" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -345,7 +345,7 @@
           <mxGeometry x="875" y="758.25" width="120" height="93.75" as="geometry" />
         </mxCell>
         <mxCell id="Zlt7n82e8u7Fh-YO_4Xm-8" value="a hora do fim tem de ser posterior à hora de inicio" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="44" width="140" height="84" as="geometry" />
+          <mxGeometry x="610" y="116" width="140" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Zlt7n82e8u7Fh-YO_4Xm-9" value="generalização completa e exclusiva" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="408.75" y="417.5" width="102.5" height="83" as="geometry" />

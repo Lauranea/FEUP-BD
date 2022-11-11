@@ -1,50 +1,48 @@
-CREATE TABLE ESTADIO
+CREATE TABLE estadio
 (
-    ID_ESTADIO NUMERIC(100),
-    NOME VARCHAR(50),
-    LOCAL1 VARCHAR(50),
-    PRIMARY KEY (ID_ESTADIO),
+    idEstadio NUMERIC(100) PRIMARY KEY,
+    nome VARCHAR(50) CONSTRAINT NOT NULL,
+    local1 VARCHAR(50) CONSTRAINT NOT NULL,
     UNIQUE (NOME)
     --UNIQUE (LOCAL1)
 );
 
-CREATE TABLE JOGO
+CREATE TABLE jogo
 (
-    ID_JOGO NUMERIC,
-    DATA1 DATE,
-    HORA_INICIO TIME,
-    HORA_FIM TIME,
-    ESTADIO VARCHAR(50),
-    FOREIGN KEY (ESTADIO) REFERENCES IDESTADIO(ESTADIO),
-    PRIMARY KEY (ID_JOGO)
+    idJogo NUMERIC PRIMARY KEY,
+    data1 DATE CONSTRAINT jogo_data1_nn NOT NULL,
+    hora_inicio TIME CONSTRAINT jogo_hora_inicio_nn NOT NULL,
+    hora_fim TIME CONSTRAINT jogo_hora_fim_nn NOT NULL,
+    estadio VARCHAR(50),
+    FOREIGN KEY (estadio) REFERENCES idEstadio(estadio),
+    CHECK (hora_fim > hora_inicio)
+    --UNIQUE (data1, hora_inicio, hora_fim)
 );
 
-CREATE TABLE JOGO_ELEM
+CREATE TABLE jogo_elem
 (
-    ID_JOGO_FASE_ELEM NUMERIC,
-    FASE VARCHAR(50),
-    FOREIGN KEY (ID_JOGO_FASE_ELEM) REFERENCES ID_JOGO(JOGO),
-    PRIMARY KEY (ID_JOGO_FASE_ELEM)
+    idJogo_fase_elem NUMERIC PRIMARY KEY,
+    fase VARCHAR(50) CONSTRAINT jogo_elem_fase_nn NOT NULL,
+    FOREIGN KEY (id_Jogo_fase_elem) REFERENCES idJogo(jogo),
 );
 
-CREATE TABLE JOGO_GRUPO
+CREATE TABLE jogo_grupo
 (
-    ID_JOGO_FASE_GRUPO NUMERIC,
-    JORNADA VARCHAR(50),
-    FOREIGN KEY (ID_JOGO_FASE_GRUPO) REFERENCES ID_JOGO(JOGO),
-    PRIMARY KEY (ID_JOGO_FASE_GRUPO)
+    idJogo_fase_grupo NUMERIC,
+    jornada VARCHAR(50) CONSTRAINT jogo_grupo_jornada_nn NOT NULL,
+    FOREIGN KEY (idJogo_fase_grupo) REFERENCES idJogo(jogo),
+    PRIMARY KEY (idJogo_fase_grupo)
 );
 
-CREATE TABLE GRUPOS
+CREATE TABLE grupos
 (
-    ID_GRUPO NUMERIC,
-    ID_JOGO_FASE_GRUPO NUMERIC,
-    PONTOS NUMERIC,
-    LUGAR NUMERIC(4),
-    NOME VARCHAR(50),
-    FOREIGN KEY (ID_JOGO_FASE_GRUPO) REFERENCES ID_JOGO_FASE_GRUPO(JOGO_GRUPO),
-    PRIMARY KEY (ID_GRUPO),
-    UNIQUE (NOME)
+    idGrupo NUMERIC PRIMARY KEY,
+    idJogo_fase_grupo NUMERIC,
+    pontos NUMERIC CONSTRAINT grupos_pontos_nn NOT NULL,
+    lugar NUMERIC(4) CONSTRAINT grupos_lugar_nn NOT NULL,
+    nome VARCHAR(50) CONSTRAINT grupos_nome_nn NOT NULL,
+    FOREIGN KEY (idJogo_fase_grupo) REFERENCES idJogo_fase_grupo(jogo_grupo),
+    UNIQUE (nome)
 );
 
 CREATE TABLE EQUIPA

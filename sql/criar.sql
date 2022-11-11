@@ -45,31 +45,31 @@ CREATE TABLE grupos
     UNIQUE (nome)
 );
 
-CREATE TABLE EQUIPA
+CREATE TABLE Equipa
 (
-    ID_EQUIPA NUMERIC,
-    ID_GRUPO NUMERIC,
-    PAIS VARCHAR(50),
-    SIGLA VARCHAR(3),
-    CONTINENTE VARCHAR(50),
-    FOREIGN KEY (ID_GRUPO) REFERENCES ID_GRUPO(GRUPOS),
-    PRIMARY KEY (ID_EQUIPA),
-    UNIQUE (PAIS),
-    UNIQUE (SIGLA)
+    idEquipa NUMERIC,
+    idGrupo NUMERIC,
+    pais VARCHAR(50)        CONSTRAINT Equipa_pais_nn NOT NULL,
+    sigla VARCHAR(3)        CONSTRAINT Equipa_sigla_nn NOT NULL,
+    continente VARCHAR(50)  CONSTRAINT EQUIPA_continente_nn NOT NULL,
+    FOREIGN KEY (idGrupo) REFERENCES idGrupo(Grupos),
+    PRIMARY KEY (idEquipa),
+    UNIQUE (pais),
+    UNIQUE (sigla)
 );
 
-CREATE TABLE JOGADOR
+CREATE TABLE Jogador
 (
-    ID_JOGADOR NUMERIC,
-    ID_EQUIPA NUMERIC,
-    ALTURA NUMERIC,
-    PESO NUMERIC,
-    NUMERO NUMERIC(99,1) CHECK (NUMERO >= 1 && NUMERO <= 99),
-    NOME VARCHAR(50),
-    DATA_NASCIMENTO DATE,
-    FOREIGN KEY (ID_EQUIPA) REFERENCES ID_EQUIPA(EQUIPA),
-    PRIMARY KEY (ID_JOGADOR),
-    UNIQUE (NOME)
+    idJogador NUMERIC,
+    idEquipa NUMERIC,
+    altura NUMERIC       CONSTRAINT Jogador_altura_nn NOT NULL,
+    peso NUMERIC         CONSTRAINT Jogador_peso_nn NOT NULL,
+    numero NUMERIC(99,1) CONSTRAINT Jogador_numero_nn NOT NULL
+                         CONSTRAINT CHECK (NUMERO >= 1 && NUMERO <= 99),
+    nome VARCHAR(50)     CONSTRAINT Jogador_nome_nn NOT NULL,
+    data_nascimento DATE CONSTRAINT Jogador_data_nascimento_nn NOT NULL,
+    FOREIGN KEY (idEquipa) REFERENCES idEquipa(Equipa),
+    PRIMARY KEY (idJogador),
 );
 
 CREATE TABLE EVENTO

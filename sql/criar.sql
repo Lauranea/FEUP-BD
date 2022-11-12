@@ -17,9 +17,9 @@ CREATE TABLE Estadio
 (
     idEstadio           INTEGER(100)    PRIMARY KEY
                                         DEFAULT 0,
-    local1              VARCHAR(50)     CONSTRAINT Estadio_local1_nn NOT NULL,
+    local1              TEXT            CONSTRAINT Estadio_local1_nn NOT NULL,
 
-    nome                VARCHAR(50)     CONSTRAINT Estadio_nome_nn NOT NULL,
+    nome                TEXT            CONSTRAINT Estadio_nome_nn NOT NULL,
     
     UNIQUE (nome)
     
@@ -55,7 +55,7 @@ CREATE TABLE Jogo_elem
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
-    fase VARCHAR(50)                    CONSTRAINT Jogo_elem_fase_nn NOT NULL
+    fase TEXT                           CONSTRAINT Jogo_elem_fase_nn NOT NULL
 );
 
 --Table Jogo de fase de grupos
@@ -67,7 +67,7 @@ CREATE TABLE Jogo_grupo
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
-    jornada VARCHAR(50)                 CONSTRAINT Jogo_grupo_jornada_nn NOT NULL
+    jornada TEXT                        CONSTRAINT Jogo_grupo_jornada_nn NOT NULL
 );
 
 --Table Grupos
@@ -81,8 +81,8 @@ CREATE TABLE Grupos
                                         ON DELETE SET DEFAULT,
     pontos              INTEGER         CONSTRAINT Grupos_pontos_nn NOT NULL,
 
-    lugar               VARCHAR(4)      CONSTRAINT Grupos_lugar_nn NOT NULL,
-    nome                VARCHAR(50)     CONSTRAINT Grupos_nome_nn NOT NULL,
+    lugar               TEXT            CONSTRAINT Grupos_lugar_nn NOT NULL,
+    nome                TEXT            CONSTRAINT Grupos_nome_nn NOT NULL,
 
     UNIQUE (nome)
 );
@@ -97,8 +97,8 @@ CREATE TABLE Equipa
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
-    pais                VARCHAR(50)     CONSTRAINT Equipa_pais_nn NOT NULL,
-    continente          VARCHAR(50)     CONSTRAINT EQUIPA_continente_nn NOT NULL,
+    pais                TEXT            CONSTRAINT Equipa_pais_nn NOT NULL,
+    continente          TEXT            CONSTRAINT EQUIPA_continente_nn NOT NULL,
 
     sigla               CHAR(3)         CONSTRAINT Equipa_sigla_nn NOT NULL,
 
@@ -120,7 +120,7 @@ CREATE TABLE Jogador
     altura              FLOAT           CONSTRAINT Jogador_altura_nn NOT NULL,
     peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL,
     
-    nome                VARCHAR(50)     CONSTRAINT Jogador_nome_nn NOT NULL,
+    nome                TEXT            CONSTRAINT Jogador_nome_nn NOT NULL,
 
     data_nascimento     DATE            CONSTRAINT Jogador_data_nascimento_nn NOT NULL
 );

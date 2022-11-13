@@ -15,7 +15,7 @@ PRAGMA foreign_keys = ON;
 --Table Estadio
 CREATE TABLE Estadio
 (
-    idEstadio           INTEGER         PRIMARY KEY
+    idEstadio           INTEGER         CONSTRAINT idEstadio_pk PRIMARY KEY
                                         DEFAULT 0,
     local1              TEXT            CONSTRAINT Estadio_local1_nn NOT NULL,
 
@@ -29,7 +29,7 @@ CREATE TABLE Estadio
 --Table Jogo
 CREATE TABLE Jogo
 (
-    idJogo              INTEGER         PRIMARY KEY
+    idJogo              INTEGER         CONSTRAINT idJogo_pk PRIMARY KEY
                                         DEFAULT 0,
 
     data1               DATE            CONSTRAINT Jogo_data1_nn NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE Jogo
 --Table Jogo de fase de eliminação
 CREATE TABLE Jogo_elem
 (
-    idJogo_fase_elem    INTEGER         PRIMARY KEY
+    idJogo_fase_elem    INTEGER         CONSTRAINT idJogo_fase_elem_pk PRIMARY KEY
                                         DEFAULT 0
                                         CONSTRAINT fk_Jogo_fase_elem_idJogo REFERENCES idJogo(Jogo)
                                         ON UPDATE CASCADE
@@ -62,7 +62,7 @@ CREATE TABLE Jogo_elem
 --Table Jogo de fase de grupos
 CREATE TABLE Jogo_grupo
 (
-    idJogo_fase_grupo   INTEGER         PRIMARY KEY
+    idJogo_fase_grupo   INTEGER         CONSTRAINT idJogo_fase_grupo_pk PRIMARY KEY
                                         DEFAULT 0
                                         CONSTRAINT fk_idJogo_fase_grupo_idJogo REFERENCES idJogo(Jogo) 
                                         ON UPDATE CASCADE
@@ -74,7 +74,7 @@ CREATE TABLE Jogo_grupo
 --Table Grupos
 CREATE TABLE Grupos
 (
-    idGrupo             INTEGER         PRIMARY KEY
+    idGrupo             INTEGER         CONSTRAINT idGrupo_pk PRIMARY KEY
                                         DEFAULT 0,
     idJogo_fase_grupo   INTEGER         DEFAULT 0
                                         CONSTRAINT fk_idJogo_fase_grupo_idJogo_fase_grupo REFERENCES idJogo_fase_grupo(Jogo_grupo)
@@ -91,7 +91,7 @@ CREATE TABLE Grupos
 --Table Equipa
 CREATE TABLE Equipa
 (
-    idEquipa            INTEGER         PRIMARY KEY
+    idEquipa            INTEGER         CONSTRAINT idEquipa_pk PRIMARY KEY
                                         DEFAULT 0,
     idGrupo             INTEGER         DEFAULT 0
                                         CONSTRAINT fk_idGrupo_idGrupo REFERENCES idGrupo(Grupos)
@@ -109,7 +109,7 @@ CREATE TABLE Equipa
 --Table Jogador
 CREATE TABLE Jogador
 (
-    idJogador           INTEGER         PRIMARY KEY
+    idJogador           INTEGER         CONSTRAINT idJogador_pk PRIMARY KEY
                                         DEFAULT 0,
     idEquipa            INTEGER         DEFAULT 0
                                         CONSTRAINT fk_idEquipa_idEquipa REFERENCES idEquipa(Equipa)
@@ -131,7 +131,7 @@ CREATE TABLE Jogador
 --Table Evento
 CREATE TABLE Evento
 (
-    idEvento            INTEGER         PRIMARY KEY
+    idEvento            INTEGER         CONSTRAINT idEvento_pk PRIMARY KEY
                                         DEFAULT 0,
     minuto              INTEGER         CONSTRAINT Evento_minuto_nn NOT NULL
                                         CONSTRAINT Evento_minuto_impossivel CHECK (minuto > 0)
@@ -140,7 +140,7 @@ CREATE TABLE Evento
 --Table Golo
 CREATE TABLE Golo
 (
-    idGolo              INTEGER         PRIMARY KEY
+    idGolo              INTEGER         CONSTRAINT idGolo_pk PRIMARY KEY
                                         DEFAULT 0
                                         CONSTRAINT fk_idGolo_idEvento REFERENCES idEvento(Evento)
                                         ON UPDATE CASCADE

@@ -21,9 +21,9 @@ CREATE TABLE Estadio
 
     nome                TEXT            CONSTRAINT Estadio_nome_nn NOT NULL,
     
-    UNIQUE (nome)
+    CONSTRAINT Estadio_nome_unique UNIQUE (nome)
     
-    UNIQUE (LOCAL1)
+    CONSTRAINT Estadio_local1_unique UNIQUE (LOCAL1)
 );
 
 --Table Jogo
@@ -85,7 +85,7 @@ CREATE TABLE Grupos
     lugar               TEXT            CONSTRAINT Grupos_lugar_nn NOT NULL,
     nome                TEXT            CONSTRAINT Grupos_nome_nn NOT NULL,
 
-    UNIQUE (nome)
+    CONSTRAINT Grupos_nome_unique UNIQUE (nome)
 );
 
 --Table Equipa
@@ -103,7 +103,7 @@ CREATE TABLE Equipa
 
     sigla               CHAR(3)         CONSTRAINT Equipa_sigla_nn NOT NULL,
 
-    UNIQUE (pais, sigla)
+    CONSTRAINT Equipa_pais_sigla_unique UNIQUE (pais, sigla)
 );
 
 --Table Jogador

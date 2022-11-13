@@ -23,7 +23,7 @@ CREATE TABLE Estadio
     
     UNIQUE (nome)
     
-    --UNIQUE (LOCAL1)
+    UNIQUE (LOCAL1)
 );
 
 --Table Jogo
@@ -116,9 +116,9 @@ CREATE TABLE Jogador
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     numero              INTEGER         CONSTRAINT Jogador_numero_nn NOT NULL
-                                        CONSTRAINT Jogador_numero_1_99 CHECK (numero >= 1 AND numero <= 98),
+                                        CONSTRAINT Jogador_numero_1_98 CHECK (numero >= 1 AND numero <= 98),
 
-    altura              FLOAT           CONSTRAINT Jogador_altura_nn NOT NULL
+    altura              DECIMAL(1,2)    CONSTRAINT Jogador_altura_nn NOT NULL
                                         CONSTRAINT Jogador_alura_positiva CHECK (altura > 0),
     peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL
                                         CONSTRAINT Jogador_peso_positivo CHECK (peso > 0),

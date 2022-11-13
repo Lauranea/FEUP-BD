@@ -15,7 +15,7 @@ PRAGMA foreign_keys = ON;
 --Table Estadio
 CREATE TABLE Estadio
 (
-    idEstadio           INTEGER(100)    PRIMARY KEY
+    idEstadio           INTEGER         PRIMARY KEY
                                         DEFAULT 0,
     local1              TEXT            CONSTRAINT Estadio_local1_nn NOT NULL,
 
@@ -35,13 +35,14 @@ CREATE TABLE Jogo
     data1               DATE            CONSTRAINT Jogo_data1_nn NOT NULL,
 
     hora_inicio         TIME            CONSTRAINT Jogo_hora_inicio_nn NOT NULL,
-    hora_fim            TIME            CONSTRAINT Jogo_hora_fim_nn NOT NULL
-                                        CONSTRAINT Jogo_hora_fim_maior_hora_inicio CHECK (hora_fim > hora_inicio),
+    hora_fim            TIME            CONSTRAINT Jogo_hora_fim_nn NOT NULL,
 
     estadio             INTEGER         DEFAULT 0
         	                            CONSTRAINT fk_estadio_idEstadio REFERENCES idEstadio(Estadio)
                                         ON UPDATE CASCADE
-                                        ON DELETE SET DEFAULT
+                                        ON DELETE SET DEFAULT,
+
+    CONSTRAINT Jogo_hora_fim_maior_hora_inicio CHECK (hora_fim > hora_inicio)
 
     --UNIQUE (data1, hora_inicio, hora_fim)
 );
@@ -114,11 +115,13 @@ CREATE TABLE Jogador
                                         CONSTRAINT fk_idEquipa_idEquipa REFERENCES idEquipa(Equipa)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
-    numero              INTEGER(99,1)   CONSTRAINT Jogador_numero_nn NOT NULL
-                                        CONSTRAINT Jogador_numero_1_99 CHECK (numero >= 1 AND numero <= 99),
+    numero              INTEGER         CONSTRAINT Jogador_numero_nn NOT NULL
+                                        CONSTRAINT Jogador_numero_1_99 CHECK (numero >= 1 AND numero <= 98),
 
-    altura              FLOAT           CONSTRAINT Jogador_altura_nn NOT NULL,
-    peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL,
+    altura              FLOAT           CONSTRAINT Jogador_altura_nn NOT NULL
+                                        CONSTRAINT Jogador_alura_positiva CHECK (altura > 0),
+    peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL
+                                        CONSTRAINT Jogador_peso_positivo CHECK (peso > 0),
     
     nome                TEXT            CONSTRAINT Jogador_nome_nn NOT NULL,
 
@@ -130,7 +133,8 @@ CREATE TABLE Evento
 (
     idEvento            INTEGER         PRIMARY KEY
                                         DEFAULT 0,
-    minuto              INTEGER(60)
+    minuto              INTEGER         CONSTRAINT Evento_minuto_nn NOT NULL
+                                        CONSTRAINT Evento_minuto_impossivel CHECK (minuto > 0)
 );
 
 --Table Golo

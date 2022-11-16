@@ -22,8 +22,6 @@ CREATE TABLE Estadio
     nome                TEXT            CONSTRAINT Estadio_nome_nn NOT NULL,
     
     CONSTRAINT Estadio_nome_unique UNIQUE (nome)
-    
-    CONSTRAINT Estadio_local1_unique UNIQUE (LOCAL1)
 );
 
 --Table Jogo

@@ -70,6 +70,8 @@ CREATE TABLE Jogo_grupo
                                         CONSTRAINT fk_idJogo_fase_grupo_idJogo REFERENCES Jogo(idJogo) 
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
+    idGrupo             INTEGER         DEFAULT 0
+                                        CONSTRAINT fk_jogoGrupo_idGrupo REFERENCES Grupos(idGrupo),
 
     jornada             INTEGER         CONSTRAINT Jogo_grupo_jornada_nn NOT NULL
 );

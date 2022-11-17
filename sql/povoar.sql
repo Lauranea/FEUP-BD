@@ -24,7 +24,7 @@ INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");
 INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");
 --Grupo B
 INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");
-INSERT INTO Equipa VALUES(6, 2, 0, "Suiça", "África", "GHA");
+INSERT INTO Equipa VALUES(6, 2, 0, "Suécia", "Europa", "SWE");
 INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");
 INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");
 
@@ -82,17 +82,17 @@ INSERT INTO Jogador VALUES(43, 4, 9, 1.88, 86, "Luuk de Jong", 1990-08-27);
 INSERT INTO Jogador VALUES(44, 4, 10, 1.76, 78, "Memphis Depay", 1994-02-13);
 
 --Portugal
-INSERT INTO Jogador VALUES(45, 5, n 1. , p , "", 1983-11-08);
-INSERT INTO Jogador VALUES(46, 5, n 1. , p , "", 1991-07-08);
-INSERT INTO Jogador VALUES(47, 5, n,1. , p , "", 1990-03-09);
-INSERT INTO Jogador VALUES(48, 5, n 1. , p , "", 1995-02-18);
-INSERT INTO Jogador VALUES(49, 5, n,1. , p , "", 1996-04-18);
-INSERT INTO Jogador VALUES(50, 5, n,1. , p , "", 1991-12-19);
-INSERT INTO Jogador VALUES(51, 5, n,1. , p , "", 1993-02-21);
-INSERT INTO Jogador VALUES(52, 5, n,1. , p , "", 1998-02-28);
-INSERT INTO Jogador VALUES(53, 5, n 1. , p , "", 1997-10-08);
-INSERT INTO Jogador VALUES(54, 5, n 1. , p , "", 1990-08-27);
-INSERT INTO Jogador VALUES(55, 5, n,1. , p , "", 1994-02-13);
+INSERT INTO Jogador VALUES(45, 5, 1, 1.90 , 84 , "Rui Patrício", 1983-11-08);
+INSERT INTO Jogador VALUES(46, 5, 20, 1.89 , 79 , "Cristo Ranoldo", 1991-07-08);
+INSERT INTO Jogador VALUES(47, 5, 3, 1.80 , 70 , "Pepe", 1990-03-09);
+INSERT INTO Jogador VALUES(48, 5, 4, 1.70 , 80 , "Rubén Dias", 1995-02-18);
+INSERT INTO Jogador VALUES(49, 5, 5, 1.73 , 76 , "Rafael Guerreiro", 1996-04-18);
+INSERT INTO Jogador VALUES(50, 5, 8, 1.77 , 78 , "João Moutinho", 1991-12-19);
+INSERT INTO Jogador VALUES(51, 5, 26, 1.76 , 79 , "João Palhinha", 1993-02-21);
+INSERT INTO Jogador VALUES(52, 5, 11, 1.80 , 77 , "Bruno Fernandes", 1998-02-28);
+INSERT INTO Jogador VALUES(53, 5, 9, 1.85 , 80 , "André Silva", 1997-10-08);
+INSERT INTO Jogador VALUES(54, 5, 7, 1.90 , 80 , "Cristiano Ronaldo", 1990-08-27);
+INSERT INTO Jogador VALUES(55, 5, 21, 1.90 , 81 , "Éder", 1994-02-13);
 
 --Suecia
 INSERT INTO Jogador VALUES(56, 6, 25, 1.98, 89, "Robin Olsen", 1990-01-08);
@@ -158,20 +158,20 @@ INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 6);
 INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 7);
 
 --Table Jogo de fase de grupos
-INSERT INTO Jogo_grupo VALUES(1, 1);
-INSERT INTO Jogo_grupo VALUES(2, 1);
-INSERT INTO Jogo_grupo VALUES(3, 1);
-INSERT INTO Jogo_grupo VALUES(4, 1);
+INSERT INTO Jogo_grupo VALUES(1, 1, 1);
+INSERT INTO Jogo_grupo VALUES(2, 1, 1);
+INSERT INTO Jogo_grupo VALUES(3, 2, 1);
+INSERT INTO Jogo_grupo VALUES(4, 2, 1);
 
-INSERT INTO Jogo_grupo VALUES(5, 2);
-INSERT INTO Jogo_grupo VALUES(6, 2);
-INSERT INTO Jogo_grupo VALUES(7, 2);
-INSERT INTO Jogo_grupo VALUES(8, 2);
+INSERT INTO Jogo_grupo VALUES(5, 1, 2);
+INSERT INTO Jogo_grupo VALUES(6, 1, 2);
+INSERT INTO Jogo_grupo VALUES(7, 2, 2);
+INSERT INTO Jogo_grupo VALUES(8, 2, 2);
 
-INSERT INTO Jogo_grupo VALUES(9, 3);
-INSERT INTO Jogo_grupo VALUES(10, 3);
-INSERT INTO Jogo_grupo VALUES(11, 3);
-INSERT INTO Jogo_grupo VALUES(12, 3);
+INSERT INTO Jogo_grupo VALUES(9, 1, 3);
+INSERT INTO Jogo_grupo VALUES(10, 1, 3);
+INSERT INTO Jogo_grupo VALUES(11, 2, 3);
+INSERT INTO Jogo_grupo VALUES(12, 2, 3);
 
 --Table Jogo de fase de eliminação
 INSERT INTO Jogo_elem VALUES(1, 1);

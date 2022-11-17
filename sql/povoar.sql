@@ -121,17 +121,17 @@ INSERT INTO Jogador VALUES(76, 7,21,1.84 ,71, "Edinson Cavani", 1987-02-14);
 INSERT INTO Jogador VALUES(77, 7, 8,175. ,69, "Facundo Pellistri", 2001-12-20);
 
 --coreia do sul
-INSERT INTO Jogador VALUES(78, 8, n 1. , p , "", 1983-11-08);
-INSERT INTO Jogador VALUES(79, 8, n 1. , p , "", 1991-07-08);
-INSERT INTO Jogador VALUES(80, 8, n,1. , p , "", 1990-03-09);
-INSERT INTO Jogador VALUES(81, 8, n 1. , p , "", 1995-02-18);
-INSERT INTO Jogador VALUES(82, 8, n,1. , p , "", 1996-04-18);
-INSERT INTO Jogador VALUES(83, 8, n,1. , p , "", 1991-12-19);
-INSERT INTO Jogador VALUES(84, 8, n,1. , p , "", 1993-02-21);
-INSERT INTO Jogador VALUES(85, 8, n,1. , p , "", 1998-02-28);
-INSERT INTO Jogador VALUES(86, 8, n 1. , p , "", 1997-10-08);
-INSERT INTO Jogador VALUES(87, 8, n 1. , p , "", 1990-08-27);
-INSERT INTO Jogador VALUES(88, 8, n,1. , p , "", 1994-02-13);
+INSERT INTO Jogador VALUES(78, 8, 1,1.87 ,76, "Kim Seung-gyu", 1990-09-30);
+INSERT INTO Jogador VALUES(79, 8, 2,1.75 ,64, "Yoon Jong-gyu", 1998-03-20);
+INSERT INTO Jogador VALUES(80, 8,14,1.76 ,67, "Hong Chul", 1990-09-17);
+INSERT INTO Jogador VALUES(81, 8,19,1.85 ,74, "Kim Young-gwon", 1990-02-27);
+INSERT INTO Jogador VALUES(82, 8,24,1.82 ,79, "Cho Yu-min", 1996-04-18);
+INSERT INTO Jogador VALUES(83, 8, 6,1.77 ,64, "Hwang In-beom", 1996-09-20);
+INSERT INTO Jogador VALUES(84, 8, 7,1.83 ,78, "Son Heung-min", 1992-07-08);
+INSERT INTO Jogador VALUES(85, 8,18,1.73 ,68, "Lee Kang-in", 2001-02-19);
+INSERT INTO Jogador VALUES(86, 8,22,1.74 ,66, "Kwon Chang-hoon", 1994-07-30);
+INSERT INTO Jogador VALUES(87, 8, 9,1.89 ,70, "Cho Gue-sung", 1998-01-25);
+INSERT INTO Jogador VALUES(88, 8,16,1.85 ,70, "Hwang Ui-jo", 1992-08-28);
 
 --Table Jogo
 --Grupos

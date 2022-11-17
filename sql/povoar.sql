@@ -42,6 +42,19 @@ INSERT INTO Jogador VALUES(9, 1, 23, 1.68, 71, "Assim Madibo", 1996-10-22);
 INSERT INTO Jogador VALUES(10, 1, 15, 1.77, 68, "Akram Afif", 1996-11-18);
 INSERT INTO Jogador VALUES(11, 1, 11, 1.80, 68, "Almoez Ali", 1996-08-19);
 
+--Equador
+INSERT INTO Jogador VALUES(12, 2, 12, 1.85, 75, "Moisés Ramírez", 2000-09-09);
+INSERT INTO Jogador VALUES(13, 2, 3, 1.75, p, "Piero Hincapié", 2002-01-09);
+INSERT INTO Jogador VALUES(14, 2, 4, 1.79, p, "Robert Arboleda", 1991-10-225);
+INSERT INTO Jogador VALUES(15, 2, 16, 1.83,p, "Boualem Khoukhi", 1990-07-09);
+INSERT INTO Jogador VALUES(16, 2, 2, 1.88, p, "Ró-Ró", 1990-08-06);
+INSERT INTO Jogador VALUES(17, 2, 3, 1.86, p, "Abdelkarim Hassan", 1993-08-28);
+INSERT INTO Jogador VALUES(18, 2, 11, 1.84,p0, "Abdulaziz Hatem", 1990-01-01);
+INSERT INTO Jogador VALUES(19, 2, 6, 1.79, p, "", 1997-12-05);
+INSERT INTO Jogador VALUES(20, 2, 6, 1.79, p, "", 1997-12-05);
+INSERT INTO Jogador VALUES(21, 2, 6, 1.79, p, "", 1997-12-05);
+INSERT INTO Jogador VALUES(22, 2, 6, 1.79, p, "", 1997-12-05);
+
 --Table Jogo
 --Grupos
 INSERT INTO Jogo VALUES(1, 1, 2, "2022-01-01", "19:00:00", "21:00:00", 1);

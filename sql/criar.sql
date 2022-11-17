@@ -35,7 +35,7 @@ CREATE TABLE Jogo
     hora_inicio         TIME            CONSTRAINT Jogo_hora_inicio_nn NOT NULL,
     hora_fim            TIME            CONSTRAINT Jogo_hora_fim_nn NOT NULL,
 
-    estadio             INTEGER         DEFAULT 0
+    idEstadio             INTEGER         DEFAULT 0
         	                            CONSTRAINT fk_estadio_idEstadio REFERENCES idEstadio(Estadio)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
@@ -78,9 +78,7 @@ CREATE TABLE Grupos
                                         CONSTRAINT fk_idJogo_fase_grupo_idJogo_fase_grupo REFERENCES idJogo_fase_grupo(Jogo_grupo)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
-    pontos              INTEGER         CONSTRAINT Grupos_pontos_nn NOT NULL,
 
-    lugar               TEXT            CONSTRAINT Grupos_lugar_nn NOT NULL,
     nome                TEXT            CONSTRAINT Grupos_nome_nn NOT NULL,
 
     CONSTRAINT Grupos_nome_unique UNIQUE (nome)
@@ -95,6 +93,8 @@ CREATE TABLE Equipa
                                         CONSTRAINT fk_idGrupo_idGrupo REFERENCES idGrupo(Grupos)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
+    
+    pontos       INTEGER         CONSTRAINT Grupos_pontosEquipa_nn NOT NULL,
 
     pais                TEXT            CONSTRAINT Equipa_pais_nn NOT NULL,
     continente          TEXT            CONSTRAINT EQUIPA_continente_nn NOT NULL,

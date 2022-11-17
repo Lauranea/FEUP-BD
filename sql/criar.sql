@@ -125,6 +125,7 @@ CREATE TABLE Jogador
     nome                TEXT            CONSTRAINT Jogador_nome_nn NOT NULL,
 
     data_nascimento     DATE            CONSTRAINT Jogador_data_nascimento_nn NOT NULL
+                                        CONSTRAINT Jogador_18_anos CHECK (data_nascimento < 2004-01-01)
 );
 
 --Table Evento

@@ -49,17 +49,32 @@ INSERT INTO Jogo VALUES(11, 5, 8, "2022-01-15", "19:00:00", "21:00:00", 3);
 INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "21:00:00", 4);
 
 --Meias de final
-INSERT INTO Jogo VALUES(11, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 5);
-INSERT INTO Jogo VALUES(12, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 6);
+INSERT INTO Jogo VALUES(13, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 5);
+INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 6);
 
 --Final
-INSERT INTO Jogo VALUES(13, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 7);
-
+INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 7);
 
 --Table Jogo de fase de grupos
+INSERT INTO Jogo_grupo VALUES(1, 1);
+INSERT INTO Jogo_grupo VALUES(2, 1);
+INSERT INTO Jogo_grupo VALUES(3, 1);
+INSERT INTO Jogo_grupo VALUES(4, 1);
+
+INSERT INTO Jogo_grupo VALUES(5, 2);
+INSERT INTO Jogo_grupo VALUES(6, 2);
+INSERT INTO Jogo_grupo VALUES(7, 2);
+INSERT INTO Jogo_grupo VALUES(8, 2);
+
+INSERT INTO Jogo_grupo VALUES(9, 3);
+INSERT INTO Jogo_grupo VALUES(10, 3);
+INSERT INTO Jogo_grupo VALUES(11, 3);
+INSERT INTO Jogo_grupo VALUES(12, 3);
 
 --Table Jogo de fase de eliminação
-
+INSERT INTO Jogo_elem VALUES(1, 1);
+INSERT INTO Jogo_elem VALUES(2, 1);
+INSERT INTO Jogo_elem VALUES(3, 2);
 
 --Table Evento
 

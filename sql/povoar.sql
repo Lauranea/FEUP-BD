@@ -37,10 +37,10 @@ INSERT INTO Jogador VALUES(4, 1, 16, 1.83, 78, "Boualem Khoukhi", 1990-07-09);
 INSERT INTO Jogador VALUES(5, 1, 2, 1.88, 73, "Ró-Ró", 1990-08-06);
 INSERT INTO Jogador VALUES(6, 1, 3, 1.86, 82, "Abdelkarim Hassan", 1993-08-28);
 INSERT INTO Jogador VALUES(7, 1, 11, 1.84, 70, "Abdulaziz Hatem", 1990-01-01);
-INSERT INTO Jogador VALUES(8, 1, 6, 1.79, 71, "", 1997-12-05);
-INSERT INTO Jogador VALUES(9, 1, 6, 1.79, 71, "", 1997-12-05);
-INSERT INTO Jogador VALUES(10, 1, 6, 1.79, 71, "", 1997-12-05);
-INSERT INTO Jogador VALUES(11, 1, 6, 1.79, 71, "", 1997-12-05);
+INSERT INTO Jogador VALUES(8, 1, 10, 1.70, 62, "Hassan Al-Haydos", 1990-12-11);
+INSERT INTO Jogador VALUES(9, 1, 23, 1.68, 71, "Assim Madibo", 1996-10-22);
+INSERT INTO Jogador VALUES(10, 1, 15, 1.77, 68, "Akram Afif", 1996-11-18);
+INSERT INTO Jogador VALUES(11, 1, 11, 1.80, 68, "Almoez Ali", 1996-08-19);
 
 --Table Jogo
 --Grupos

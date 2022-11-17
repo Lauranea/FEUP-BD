@@ -108,17 +108,17 @@ INSERT INTO Jogador VALUES(65, 6, n 1. , p , "", 1990-08-27);
 INSERT INTO Jogador VALUES(66, 6, n,1. , p , "", 1994-02-13);
 
 --uruguai
-INSERT INTO Jogador VALUES(67, 7, n 1. , p , "", 1983-11-08);
-INSERT INTO Jogador VALUES(68, 7, n 1. , p , "", 1991-07-08);
-INSERT INTO Jogador VALUES(69, 7, n,1. , p , "", 1990-03-09);
-INSERT INTO Jogador VALUES(70, 7, n 1. , p , "", 1995-02-18);
-INSERT INTO Jogador VALUES(71, 7, n,1. , p , "", 1996-04-18);
-INSERT INTO Jogador VALUES(72, 7, n,1. , p , "", 1991-12-19);
-INSERT INTO Jogador VALUES(73, 7, n,1. , p , "", 1993-02-21);
-INSERT INTO Jogador VALUES(74, 7, n,1. , p , "", 1998-02-28);
-INSERT INTO Jogador VALUES(75, 7, n 1. , p , "", 1997-10-08);
-INSERT INTO Jogador VALUES(76, 7, n 1. , p , "", 1990-08-27);
-INSERT INTO Jogador VALUES(77, 7, n,1. , p , "", 1994-02-13);
+INSERT INTO Jogador VALUES(67, 7, 1,1.90 ,84, "Fernando Muslera", 1986-06-16);
+INSERT INTO Jogador VALUES(68, 7, 3,1.87 ,78 , "Diego Godín", 1986-02-16);
+INSERT INTO Jogador VALUES(69, 7,19,1.96 ,85, "Sebasián Coates", 1990-10-07);
+INSERT INTO Jogador VALUES(70, 7, 2,1.85 ,80, "José Giménez", 1995-01-20);
+INSERT INTO Jogador VALUES(71, 7,22,1.80 ,76, "Martín Cáceres", 1987-04-07);
+INSERT INTO Jogador VALUES(72, 7, 5,1.87 ,81, "Matías Vecino", 1991-08-24);
+INSERT INTO Jogador VALUES(73, 7,10,1.72 ,73, "Giorgian de Arrascaeta", 1994-06-01);
+INSERT INTO Jogador VALUES(74, 7,15,1.82 ,78, "Federico Valverde", 1998-07-22);
+INSERT INTO Jogador VALUES(75, 7, 9,1.82 ,83, "Luis Suárez", 1987-01-24);
+INSERT INTO Jogador VALUES(76, 7,21,1.84 ,71, "Edinson Cavani", 1987-02-14);
+INSERT INTO Jogador VALUES(77, 7, 8,175. ,69, "Facundo Pellistri", 2001-12-20);
 
 --coreia do sul
 INSERT INTO Jogador VALUES(78, 8, n 1. , p , "", 1983-11-08);

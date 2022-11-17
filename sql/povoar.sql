@@ -68,6 +68,19 @@ INSERT INTO Jogador VALUES(31, 3, 7, 1.86, 78, "Nicolas Jackson", 1990-02-19);
 INSERT INTO Jogador VALUES(32, 3, 10, 1.75, 69, "Sadio Mané", 1992-04-10);
 INSERT INTO Jogador VALUES(33, 3, 9, 1.87, 70, "Iliman Ndiaye", 2000-03-06);
 
+--Paises baixos
+INSERT INTO Jogador VALUES(23, 4, 1, , , "Remko Pasveer", 1983-11-8);
+INSERT INTO Jogador VALUES(24, 4, 4, , , "Virgil van Dijk", 1991-02-18);
+INSERT INTO Jogador VALUES(25, 4, 17, , , "Daley Blind", 1990-03-09);
+INSERT INTO Jogador VALUES(26, 4, 4, , , "Nathan Aké", 1995-02-18);
+INSERT INTO Jogador VALUES(27, 4, 2, , , "Fodé Ballo-Touré", 1997-01-03);
+INSERT INTO Jogador VALUES(28, 4, 17, , , "Pape Matar Sarr", 2002-09-14);
+INSERT INTO Jogador VALUES(29, 4, 15, , , "Krépin Diatta", 1999-02-25);
+INSERT INTO Jogador VALUES(30, 4, 26, , , "Pape Gueye", 1999-01-24);
+INSERT INTO Jogador VALUES(31, 4, 7, , , "Nicolas Jackson", 1990-02-19);
+INSERT INTO Jogador VALUES(32, 4, 10, , , "Sadio Mané", 1992-04-10);
+INSERT INTO Jogador VALUES(33, 4, 9, , , "Iliman Ndiaye", 2000-03-06);
+
 --Table Jogo
 --Grupos
 INSERT INTO Jogo VALUES(1, 1, 2, "2022-01-01", "19:00:00", "21:00:00", 1);

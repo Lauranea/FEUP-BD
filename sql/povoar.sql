@@ -56,7 +56,7 @@ INSERT INTO Jogador VALUES(21, 2, 11, 1.88, 86, "Michel Estrada", 1989-04-07);
 INSERT INTO Jogador VALUES(22, 2, 13, 1.77, 74, "Enner Valencia", 1989-09-04);
 
 --Senegal
-INSERT INTO Jogador VALUES(23, 3, 1, 1.93, , "Seny Dieng", 1994-11-23);
+INSERT INTO Jogador VALUES(23, 3, 1, 1.93, 73, "Seny Dieng", 1994-11-23);
 INSERT INTO Jogador VALUES(24, 3, 22, 1.87, 79, "Abdou Diallo", 1996-05-04);
 INSERT INTO Jogador VALUES(25, 3, 14, 1.91, 76, "Formose Mendy", 2001-01-02);
 INSERT INTO Jogador VALUES(26, 3, 4, 1.97, 83, "Pape Abou Cissé", 1995-09-14);

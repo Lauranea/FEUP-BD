@@ -61,7 +61,7 @@ INSERT INTO Jogador VALUES(24, 3, 22, 1.87, 79, "Abdou Diallo", 1996-05-04);
 INSERT INTO Jogador VALUES(25, 3, 14, 1.91, 76, "Formose Mendy", 2001-01-02);
 INSERT INTO Jogador VALUES(26, 3, 4, 1.97, 83, "Pape Abou Cissé", 1995-09-14);
 INSERT INTO Jogador VALUES(27, 3, 2, 1.99, 100, "Fodé Ballo-Touré", 1997-01-03);
-INSERT INTO Jogador VALUES(28, 3, 17, 1.80, 80, "Pape Matar Sarr", 2002-09-14);
+INSERT INTO Jogador VALUES(28, 3, 17, 1.80, 130, "Pape Matar Sarr", 2002-09-14);
 INSERT INTO Jogador VALUES(29, 3, 15, 1.73, 68, "Krépin Diatta", 1999-02-25);
 INSERT INTO Jogador VALUES(30, 3, 26, 1.89, 79, "Pape Gueye", 1999-01-24);
 INSERT INTO Jogador VALUES(31, 3, 7, 1.86, 78, "Nicolas Jackson", 1990-02-19);
@@ -92,7 +92,7 @@ INSERT INTO Jogador VALUES(51, 5, 26, 1.76 , 79 , "João Palhinha", 1993-02-21);
 INSERT INTO Jogador VALUES(52, 5, 11, 1.80 , 77 , "Bruno Fernandes", 1998-02-28);
 INSERT INTO Jogador VALUES(53, 5, 9, 1.85 , 80 , "André Silva", 1997-10-08);
 INSERT INTO Jogador VALUES(54, 5, 7, 1.90 , 80 , "Cristiano Ronaldo", 1990-08-27);
-INSERT INTO Jogador VALUES(55, 5, 21, 1.90 , 81 , "Éder", 1994-02-13);
+INSERT INTO Jogador VALUES(55, 5, 99, 1.99 , 99 , "Éder", 1999-09-09);
 
 --Suecia
 INSERT INTO Jogador VALUES(56, 6, 25, 1.98, 89, "Robin Olsen", 1990-01-08);
@@ -105,7 +105,7 @@ INSERT INTO Jogador VALUES(62, 6, 20,1.78 , 70 , "Kristoffer Olsson", 1995-06-30
 INSERT INTO Jogador VALUES(63, 6, 8,1.86 , 75 , "Albin Ekdal", 1989-07-28);
 INSERT INTO Jogador VALUES(64, 6, 11, 1.79 , 70 , "Jesper Karlsson", 1998-07-25);
 INSERT INTO Jogador VALUES(65, 6, 21, 1.86 , 80 , "Dejan Kulusevski", 2000-04-25);
-INSERT INTO Jogador VALUES(66, 6, 36, 1.95, 95, "Zlatan Ibrahimovic", 1981-10-03);
+INSERT INTO Jogador VALUES(66, 6, 36, 2.35, 97, "Zlatan Ibrahimovic", 1981-10-03);
 
 --uruguai
 INSERT INTO Jogador VALUES(67, 7, 1,1.90 ,84, "Fernando Muslera", 1986-06-16);
@@ -121,17 +121,17 @@ INSERT INTO Jogador VALUES(76, 7,21,1.84 ,71, "Edinson Cavani", 1987-02-14);
 INSERT INTO Jogador VALUES(77, 7, 8,175. ,69, "Facundo Pellistri", 2001-12-20);
 
 --coreia do sul
-INSERT INTO Jogador VALUES(78, 8, 1,1.87 ,76, "Kim Seung-gyu", 1990-09-30);
-INSERT INTO Jogador VALUES(79, 8, 2,1.75 ,64, "Yoon Jong-gyu", 1998-03-20);
-INSERT INTO Jogador VALUES(80, 8,14,1.76 ,67, "Hong Chul", 1990-09-17);
-INSERT INTO Jogador VALUES(81, 8,19,1.85 ,74, "Kim Young-gwon", 1990-02-27);
-INSERT INTO Jogador VALUES(82, 8,24,1.82 ,79, "Cho Yu-min", 1996-04-18);
-INSERT INTO Jogador VALUES(83, 8, 6,1.77 ,64, "Hwang In-beom", 1996-09-20);
-INSERT INTO Jogador VALUES(84, 8, 7,1.83 ,78, "Son Heung-min", 1992-07-08);
-INSERT INTO Jogador VALUES(85, 8,18,1.73 ,68, "Lee Kang-in", 2001-02-19);
-INSERT INTO Jogador VALUES(86, 8,22,1.74 ,66, "Kwon Chang-hoon", 1994-07-30);
-INSERT INTO Jogador VALUES(87, 8, 9,1.89 ,70, "Cho Gue-sung", 1998-01-25);
-INSERT INTO Jogador VALUES(88, 8,16,1.85 ,70, "Hwang Ui-jo", 1992-08-28);
+INSERT INTO Jogador VALUES(78, 8, n 1. , p , "", 1983-11-08);
+INSERT INTO Jogador VALUES(79, 8, n 1. , p , "", 1991-07-08);
+INSERT INTO Jogador VALUES(80, 8, n,1. , p , "", 1990-03-09);
+INSERT INTO Jogador VALUES(81, 8, n 1. , p , "", 1995-02-18);
+INSERT INTO Jogador VALUES(82, 8, n,1. , p , "", 1996-04-18);
+INSERT INTO Jogador VALUES(83, 8, n,1. , p , "", 1991-12-19);
+INSERT INTO Jogador VALUES(84, 8, n,1. , p , "", 1993-02-21);
+INSERT INTO Jogador VALUES(85, 8, n,1. , p , "", 1998-02-28);
+INSERT INTO Jogador VALUES(86, 8, n 1. , p , "", 1997-10-08);
+INSERT INTO Jogador VALUES(87, 8, n 1. , p , "", 1990-08-27);
+INSERT INTO Jogador VALUES(88, 8, n,1. , p , "", 1994-02-13);
 
 --Table Jogo
 --Grupos

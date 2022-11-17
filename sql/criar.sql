@@ -142,7 +142,7 @@ CREATE TABLE Evento
 --Table Golo
 CREATE TABLE Golo
 (
-    idGolo              INTEGER         CONSTRAINT idGolo_pk PRIMARY KEY
+    idGolo              INTEGER         CONSTRAINT idGolo_pk PRIMARY KEY AUTOINCREMENT
                                         DEFAULT 0
                                         CONSTRAINT fk_idGolo_idEvento REFERENCES idEvento(Evento)
                                         ON UPDATE CASCADE

@@ -29,7 +29,18 @@ INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");
 INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");
 
 --Table Jogador
-
+--Catar
+INSERT INTO Jogador VALUES(1, 1, 1, 1.85, 83, "Saad al-Sheeb", 1990-02-19);
+INSERT INTO Jogador VALUES(2, 1, 5, 1.75, 77, "Bassam Al-Rawi", 1997-12-16);
+INSERT INTO Jogador VALUES(3, 1, 6, 1.79, 71, "Tarek Salman", 1997-12-05);
+INSERT INTO Jogador VALUES(4, 1, 16, 1.83, 78, "Boualem Khoukhi", 1990-07-09);
+INSERT INTO Jogador VALUES(5, 1, 2, 1.88, 73, "Ró-Ró", 1990-08-06);
+INSERT INTO Jogador VALUES(6, 1, 3, 1.86, 82, "Abdelkarim Hassan", 1993-08-28);
+INSERT INTO Jogador VALUES(7, 1, 11, 1.84, 70, "Abdulaziz Hatem", 1990-01-01);
+INSERT INTO Jogador VALUES(8, 1, 6, 1.79, 71, "", 1997-12-05);
+INSERT INTO Jogador VALUES(9, 1, 6, 1.79, 71, "", 1997-12-05);
+INSERT INTO Jogador VALUES(10, 1, 6, 1.79, 71, "", 1997-12-05);
+INSERT INTO Jogador VALUES(11, 1, 6, 1.79, 71, "", 1997-12-05);
 
 --Table Jogo
 --Grupos

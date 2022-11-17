@@ -29,6 +29,11 @@ CREATE TABLE Jogo
 (
     idJogo              INTEGER         CONSTRAINT idJogo_pk PRIMARY KEY
                                         DEFAULT 0,
+    
+    idEquipa1           INTEGER         CONSTRAINT idEquipa1_pk PRIMARY KEY
+                                        DEFAULT 0,
+    idEquipa2           INTEGER         CONSTRAINT idEquipa1_pk PRIMARY KEY
+                                        DEFAULT 0,
 
     data1               DATE            CONSTRAINT Jogo_data1_nn NOT NULL,
 

@@ -71,7 +71,7 @@ CREATE TABLE Jogo_grupo
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
-    jornada INTEGER                        CONSTRAINT Jogo_grupo_jornada_nn NOT NULL
+    jornada             INTEGER         CONSTRAINT Jogo_grupo_jornada_nn NOT NULL
 );
 
 --Table Grupos
@@ -95,7 +95,7 @@ CREATE TABLE Equipa
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     
-    pontos       INTEGER         CONSTRAINT Grupos_pontosEquipa_nn NOT NULL,
+    pontos              INTEGER         CONSTRAINT Grupos_pontosEquipa_nn NOT NULL,
 
     pais                TEXT            CONSTRAINT Equipa_pais_nn NOT NULL,
     continente          TEXT            CONSTRAINT EQUIPA_continente_nn NOT NULL,

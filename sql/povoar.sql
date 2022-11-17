@@ -69,7 +69,7 @@ INSERT INTO Jogador VALUES(32, 3, 10, 1.75, 69, "Sadio Mané", 1992-04-10);
 INSERT INTO Jogador VALUES(33, 3, 9, 1.87, 70, "Iliman Ndiaye", 2000-03-06);
 
 --Paises baixos
-INSERT INTO Jogador VALUES(34, 4, 1, 1.87 , 88 , "Remko Pasveer", 1983-11-8);
+INSERT INTO Jogador VALUES(34, 4, 1, 1.87 , 88 , "Remko Pasveer", 1983-11-08);
 INSERT INTO Jogador VALUES(35, 4, 4, 1.93 , 92 , "Virgil van Dijk", 1991-07-08);
 INSERT INTO Jogador VALUES(36, 4, 17, 1.80, 71, "Daley Blind", 1990-03-09);
 INSERT INTO Jogador VALUES(37, 4, 5, 1.80, 72, "Nathan Aké", 1995-02-18);
@@ -80,6 +80,58 @@ INSERT INTO Jogador VALUES(41, 4, 20, 1.83, 77, "Teun Koopmeiners", 1998-02-28);
 INSERT INTO Jogador VALUES(42, 4, 7, 1.78, 78, "Steven Bergwuijn", 1997-10-08);
 INSERT INTO Jogador VALUES(43, 4, 9, 1.88, 86, "Luuk de Jong", 1990-08-27);
 INSERT INTO Jogador VALUES(44, 4, 10, 1.76, 78, "Memphis Depay", 1994-02-13);
+
+--Portugal
+INSERT INTO Jogador VALUES(45, 5, n 1. , p , "", 1983-11-08);
+INSERT INTO Jogador VALUES(46, 5, n 1. , p , "", 1991-07-08);
+INSERT INTO Jogador VALUES(47, 5, n,1. , p , "", 1990-03-09);
+INSERT INTO Jogador VALUES(48, 5, n 1. , p , "", 1995-02-18);
+INSERT INTO Jogador VALUES(49, 5, n,1. , p , "", 1996-04-18);
+INSERT INTO Jogador VALUES(50, 5, n,1. , p , "", 1991-12-19);
+INSERT INTO Jogador VALUES(51, 5, n,1. , p , "", 1993-02-21);
+INSERT INTO Jogador VALUES(52, 5, n,1. , p , "", 1998-02-28);
+INSERT INTO Jogador VALUES(53, 5, n 1. , p , "", 1997-10-08);
+INSERT INTO Jogador VALUES(54, 5, n 1. , p , "", 1990-08-27);
+INSERT INTO Jogador VALUES(55, 5, n,1. , p , "", 1994-02-13);
+
+--gana
+INSERT INTO Jogador VALUES(56, 6, n 1. , p , "", 1983-11-08);
+INSERT INTO Jogador VALUES(57, 6, n 1. , p , "", 1991-07-08);
+INSERT INTO Jogador VALUES(58, 6, n,1. , p , "", 1990-03-09);
+INSERT INTO Jogador VALUES(59, 6, n 1. , p , "", 1995-02-18);
+INSERT INTO Jogador VALUES(60, 6, n,1. , p , "", 1996-04-18);
+INSERT INTO Jogador VALUES(61, 6, n,1. , p , "", 1991-12-19);
+INSERT INTO Jogador VALUES(62, 6, n,1. , p , "", 1993-02-21);
+INSERT INTO Jogador VALUES(63, 6, n,1. , p , "", 1998-02-28);
+INSERT INTO Jogador VALUES(64, 6, n 1. , p , "", 1997-10-08);
+INSERT INTO Jogador VALUES(65, 6, n 1. , p , "", 1990-08-27);
+INSERT INTO Jogador VALUES(66, 6, n,1. , p , "", 1994-02-13);
+
+--uruguai
+INSERT INTO Jogador VALUES(67, 7, n 1. , p , "", 1983-11-08);
+INSERT INTO Jogador VALUES(68, 7, n 1. , p , "", 1991-07-08);
+INSERT INTO Jogador VALUES(69, 7, n,1. , p , "", 1990-03-09);
+INSERT INTO Jogador VALUES(70, 7, n 1. , p , "", 1995-02-18);
+INSERT INTO Jogador VALUES(71, 7, n,1. , p , "", 1996-04-18);
+INSERT INTO Jogador VALUES(72, 7, n,1. , p , "", 1991-12-19);
+INSERT INTO Jogador VALUES(73, 7, n,1. , p , "", 1993-02-21);
+INSERT INTO Jogador VALUES(74, 7, n,1. , p , "", 1998-02-28);
+INSERT INTO Jogador VALUES(75, 7, n 1. , p , "", 1997-10-08);
+INSERT INTO Jogador VALUES(76, 7, n 1. , p , "", 1990-08-27);
+INSERT INTO Jogador VALUES(77, 7, n,1. , p , "", 1994-02-13);
+
+--coreia do sul
+INSERT INTO Jogador VALUES(78, 8, n 1. , p , "", 1983-11-08);
+INSERT INTO Jogador VALUES(79, 8, n 1. , p , "", 1991-07-08);
+INSERT INTO Jogador VALUES(80, 8, n,1. , p , "", 1990-03-09);
+INSERT INTO Jogador VALUES(81, 8, n 1. , p , "", 1995-02-18);
+INSERT INTO Jogador VALUES(82, 8, n,1. , p , "", 1996-04-18);
+INSERT INTO Jogador VALUES(83, 8, n,1. , p , "", 1991-12-19);
+INSERT INTO Jogador VALUES(84, 8, n,1. , p , "", 1993-02-21);
+INSERT INTO Jogador VALUES(85, 8, n,1. , p , "", 1998-02-28);
+INSERT INTO Jogador VALUES(86, 8, n 1. , p , "", 1997-10-08);
+INSERT INTO Jogador VALUES(87, 8, n 1. , p , "", 1990-08-27);
+INSERT INTO Jogador VALUES(88, 8, n,1. , p , "", 1994-02-13);
 
 --Table Jogo
 --Grupos

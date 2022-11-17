@@ -69,17 +69,17 @@ INSERT INTO Jogador VALUES(32, 3, 10, 1.75, 69, "Sadio Mané", 1992-04-10);
 INSERT INTO Jogador VALUES(33, 3, 9, 1.87, 70, "Iliman Ndiaye", 2000-03-06);
 
 --Paises baixos
-INSERT INTO Jogador VALUES(23, 4, 1, , , "Remko Pasveer", 1983-11-8);
-INSERT INTO Jogador VALUES(24, 4, 4, , , "Virgil van Dijk", 1991-02-18);
-INSERT INTO Jogador VALUES(25, 4, 17, , , "Daley Blind", 1990-03-09);
-INSERT INTO Jogador VALUES(26, 4, 4, , , "Nathan Aké", 1995-02-18);
-INSERT INTO Jogador VALUES(27, 4, 2, , , "Fodé Ballo-Touré", 1997-01-03);
-INSERT INTO Jogador VALUES(28, 4, 17, , , "Pape Matar Sarr", 2002-09-14);
-INSERT INTO Jogador VALUES(29, 4, 15, , , "Krépin Diatta", 1999-02-25);
-INSERT INTO Jogador VALUES(30, 4, 26, , , "Pape Gueye", 1999-01-24);
-INSERT INTO Jogador VALUES(31, 4, 7, , , "Nicolas Jackson", 1990-02-19);
-INSERT INTO Jogador VALUES(32, 4, 10, , , "Sadio Mané", 1992-04-10);
-INSERT INTO Jogador VALUES(33, 4, 9, , , "Iliman Ndiaye", 2000-03-06);
+INSERT INTO Jogador VALUES(34, 4, 1, 1.87 , 88 , "Remko Pasveer", 1983-11-8);
+INSERT INTO Jogador VALUES(35, 4, 4, 1.93 , 92 , "Virgil van Dijk", 1991-07-08);
+INSERT INTO Jogador VALUES(36, 4, 17, 1.80, 71, "Daley Blind", 1990-03-09);
+INSERT INTO Jogador VALUES(37, 4, 5, 1.80, 72, "Nathan Aké", 1995-02-18);
+INSERT INTO Jogador VALUES(38, 4, 22,1.88 , 80, "Denzel Dumfries", 1996-04-18);
+INSERT INTO Jogador VALUES(39, 4, 11, 1.82, 75, "Steven Berghuis", 1991-12-19);
+INSERT INTO Jogador VALUES(40, 4, 14, 1.79, 70, "Davy Klaasseen", 1993-02-21);
+INSERT INTO Jogador VALUES(41, 4, 20, 1.83, 77, "Teun Koopmeiners", 1998-02-28);
+INSERT INTO Jogador VALUES(42, 4, 7, 1.78, 78, "Steven Bergwuijn", 1997-10-08);
+INSERT INTO Jogador VALUES(43, 4, 9, 1.88, 86, "Luuk de Jong", 1990-08-27);
+INSERT INTO Jogador VALUES(44, 4, 10, 1.76, 78, "Memphis Depay", 1994-02-13);
 
 --Table Jogo
 --Grupos

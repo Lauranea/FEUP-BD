@@ -24,7 +24,7 @@ INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");
 INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");
 --Grupo B
 INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");
-INSERT INTO Equipa VALUES(6, 2, 0, "Gana", "África", "GHA");
+INSERT INTO Equipa VALUES(6, 2, 0, "Suiça", "África", "GHA");
 INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");
 INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");
 
@@ -94,18 +94,18 @@ INSERT INTO Jogador VALUES(53, 5, n 1. , p , "", 1997-10-08);
 INSERT INTO Jogador VALUES(54, 5, n 1. , p , "", 1990-08-27);
 INSERT INTO Jogador VALUES(55, 5, n,1. , p , "", 1994-02-13);
 
---gana
-INSERT INTO Jogador VALUES(56, 6, n 1. , p , "", 1983-11-08);
-INSERT INTO Jogador VALUES(57, 6, n 1. , p , "", 1991-07-08);
-INSERT INTO Jogador VALUES(58, 6, n,1. , p , "", 1990-03-09);
-INSERT INTO Jogador VALUES(59, 6, n 1. , p , "", 1995-02-18);
-INSERT INTO Jogador VALUES(60, 6, n,1. , p , "", 1996-04-18);
-INSERT INTO Jogador VALUES(61, 6, n,1. , p , "", 1991-12-19);
-INSERT INTO Jogador VALUES(62, 6, n,1. , p , "", 1993-02-21);
-INSERT INTO Jogador VALUES(63, 6, n,1. , p , "", 1998-02-28);
-INSERT INTO Jogador VALUES(64, 6, n 1. , p , "", 1997-10-08);
-INSERT INTO Jogador VALUES(65, 6, n 1. , p , "", 1990-08-27);
-INSERT INTO Jogador VALUES(66, 6, n,1. , p , "", 1994-02-13);
+--Suecia
+INSERT INTO Jogador VALUES(56, 6, 25, 1.98, 89, "Robin Olsen", 1990-01-08);
+INSERT INTO Jogador VALUES(57, 6, 33, 1.89, 78, "Mikael Lustig", 1986-12-13);
+INSERT INTO Jogador VALUES(58, 6, 2, 1.87, 89, "Vicor Nilsson-Lindelöf", 1994-07-17);
+INSERT INTO Jogador VALUES(59, 6, 15, 1.80, 69, "Ken Sema", 1993-09-30);
+INSERT INTO Jogador VALUES(60, 6, 17, 1.81, 74, "Ludwig Augustinsson", 1994-04-21);
+INSERT INTO Jogador VALUES(61, 6, 7,1.78 , 70 , "Sebastian Larsson", 1985-06-06);
+INSERT INTO Jogador VALUES(62, 6, 20,1.78 , 70 , "Kristoffer Olsson", 1995-06-30);
+INSERT INTO Jogador VALUES(63, 6, 8,1.86 , 75 , "Albin Ekdal", 1989-07-28);
+INSERT INTO Jogador VALUES(64, 6, 11, 1.79 , 70 , "Jesper Karlsson", 1998-07-25);
+INSERT INTO Jogador VALUES(65, 6, 21, 1.86 , 80 , "Dejan Kulusevski", 2000-04-25);
+INSERT INTO Jogador VALUES(66, 6, 36, 1.95, 95, "Zlatan Ibrahimovic", 1981-10-03);
 
 --uruguai
 INSERT INTO Jogador VALUES(67, 7, 1,1.90 ,84, "Fernando Muslera", 1986-06-16);

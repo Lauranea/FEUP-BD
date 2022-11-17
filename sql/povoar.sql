@@ -44,16 +44,16 @@ INSERT INTO Jogador VALUES(11, 1, 11, 1.80, 68, "Almoez Ali", 1996-08-19);
 
 --Equador
 INSERT INTO Jogador VALUES(12, 2, 12, 1.85, 75, "Moisés Ramírez", 2000-09-09);
-INSERT INTO Jogador VALUES(13, 2, 3, 1.75, p, "Piero Hincapié", 2002-01-09);
-INSERT INTO Jogador VALUES(14, 2, 4, 1.79, p, "Robert Arboleda", 1991-10-225);
-INSERT INTO Jogador VALUES(15, 2, 16, 1.83,p, "Boualem Khoukhi", 1990-07-09);
-INSERT INTO Jogador VALUES(16, 2, 2, 1.88, p, "Ró-Ró", 1990-08-06);
-INSERT INTO Jogador VALUES(17, 2, 3, 1.86, p, "Abdelkarim Hassan", 1993-08-28);
-INSERT INTO Jogador VALUES(18, 2, 11, 1.84,p0, "Abdulaziz Hatem", 1990-01-01);
-INSERT INTO Jogador VALUES(19, 2, 6, 1.79, p, "", 1997-12-05);
-INSERT INTO Jogador VALUES(20, 2, 6, 1.79, p, "", 1997-12-05);
-INSERT INTO Jogador VALUES(21, 2, 6, 1.79, p, "", 1997-12-05);
-INSERT INTO Jogador VALUES(22, 2, 6, 1.79, p, "", 1997-12-05);
+INSERT INTO Jogador VALUES(13, 2, 3, 1.83, 66, "Piero Hincapié", 2002-01-09);
+INSERT INTO Jogador VALUES(14, 2, 4, 1.79, 70, "Robert Arboleda", 1991-10-22);
+INSERT INTO Jogador VALUES(15, 2, 6, 1.69 , 65, "Diego Palacios", 1999-07-12);
+INSERT INTO Jogador VALUES(16, 2, 7, 1.75, 73, "Pervis Estupiñán", 1998-01-21);
+INSERT INTO Jogador VALUES(17, 2, 15, 1.68, 62, "Ángel Mena", 1988-01-21);
+INSERT INTO Jogador VALUES(18, 2, 19, 1.78, 65, "Gonzalo Plata", 2000-11-01);
+INSERT INTO Jogador VALUES(19, 2, 8, 1.73,  67, "Carlos Gruezo", 1995-04-19);
+INSERT INTO Jogador VALUES(20, 2, 9, 1.66, 71, "Djorkaeff Reasco", 1999-01-18);
+INSERT INTO Jogador VALUES(21, 2, 11, 1.88, 86, "Michel Estrada", 1989-04-07);
+INSERT INTO Jogador VALUES(22, 2, 13, 1.77, 74, "Enner Valencia", 1989-09-04);
 
 --Table Jogo
 --Grupos

@@ -13,25 +13,26 @@ INSERT INTO Estadio VALUES(7, "Al Rayyan", "Ahmad bin Ali Stadium");
 INSERT INTO Estadio VALUES(8, "Al Wakrah", "Al Janoub Stadium");
 
 --Table Grupos
-INSERT INTO Grupos VALUES(1, 0, 0, 0, "A");
-INSERT INTO Grupos VALUES(2, 0, 0, 0, "B");
+INSERT INTO Grupos VALUES(1, "A");
+INSERT INTO Grupos VALUES(2, "B");
 
 --Table Equipa
 --Grupo A
-INSERT INTO Equipa VALUES(1, 1, "Catar", "Ásia", "QAT");
-INSERT INTO Equipa VALUES(2, 1, "Equador", "América", "ECU");
-INSERT INTO Equipa VALUES(3, 1, "Senegal", "África", "SEN");
-INSERT INTO Equipa VALUES(4, 1, "Países Baixos", "Europa", "NED");
+INSERT INTO Equipa VALUES(1, 1, 0, "Catar", "Ásia", "QAT");
+INSERT INTO Equipa VALUES(2, 1, 0, "Equador", "América", "ECU");
+INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");
+INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");
 --Grupo B
-INSERT INTO Equipa VALUES(5, 2, "Portugal", "Europa", "POR");
-INSERT INTO Equipa VALUES(6, 2, "Gana", "África", "GHA");
-INSERT INTO Equipa VALUES(7, 2, "Uruguai", "América", "URU");
-INSERT INTO Equipa VALUES(8, 2, "Coreia do Sul", "Ásia", "KOR");
+INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");
+INSERT INTO Equipa VALUES(6, 2, 0, "Gana", "África", "GHA");
+INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");
+INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");
 
 --Table Jogador
 
 
 --Table Jogo
+--Grupos
 INSERT INTO Jogo VALUES(1, 1, 2, "2022-01-01", "19:00:00", "21:00:00", 1);
 INSERT INTO Jogo VALUES(2, 3, 4, "2022-01-01", "19:00:00", "21:00:00", 2);
 INSERT INTO Jogo VALUES(3, 5, 6, "2022-01-01", "19:00:00", "21:00:00", 3);
@@ -47,11 +48,18 @@ INSERT INTO Jogo VALUES(10, 2, 3, "2022-01-15", "19:00:00", "21:00:00", 2);
 INSERT INTO Jogo VALUES(11, 5, 8, "2022-01-15", "19:00:00", "21:00:00", 3);
 INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "21:00:00", 4);
 
+--Meias de final
+INSERT INTO Jogo VALUES(11, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 5);
+INSERT INTO Jogo VALUES(12, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 6);
 
---Table Jogo de fase de eliminação
+--Final
+INSERT INTO Jogo VALUES(13, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 7);
 
 
 --Table Jogo de fase de grupos
+
+--Table Jogo de fase de eliminação
+
 
 --Table Evento
 

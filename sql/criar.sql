@@ -30,9 +30,9 @@ CREATE TABLE Jogo
     idJogo              INTEGER         CONSTRAINT idJogo_pk PRIMARY KEY
                                         DEFAULT 0,
     
-    idEquipa1           INTEGER         CONSTRAINT idEquipa1_pk PRIMARY KEY
+    idEquipa1           INTEGER         CONSTRAINT idEquipa1_pk
                                         DEFAULT 0,
-    idEquipa2           INTEGER         CONSTRAINT idEquipa1_pk PRIMARY KEY
+    idEquipa2           INTEGER         CONSTRAINT idEquipa2_pk
                                         DEFAULT 0,
 
     data1               DATE            CONSTRAINT Jogo_data1_nn NOT NULL,
@@ -40,8 +40,8 @@ CREATE TABLE Jogo
     hora_inicio         TIME            CONSTRAINT Jogo_hora_inicio_nn NOT NULL,
     hora_fim            TIME            CONSTRAINT Jogo_hora_fim_nn NOT NULL,
 
-    idEstadio             INTEGER         DEFAULT 0
-        	                            CONSTRAINT fk_estadio_idEstadio REFERENCES idEstadio(Estadio)
+    estadio             INTEGER         DEFAULT 0
+        	                            CONSTRAINT fk_estadio_estadio REFERENCES Estadio(idEstadio)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
@@ -55,7 +55,7 @@ CREATE TABLE Jogo_elem
 (
     idJogo_fase_elem    INTEGER         CONSTRAINT idJogo_fase_elem_pk PRIMARY KEY
                                         DEFAULT 0
-                                        CONSTRAINT fk_Jogo_fase_elem_idJogo REFERENCES idJogo(Jogo)
+                                        CONSTRAINT fk_Jogo_fase_elem_idJogo REFERENCES Jogo(idJogo)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
@@ -67,7 +67,7 @@ CREATE TABLE Jogo_grupo
 (
     idJogo_fase_grupo   INTEGER         CONSTRAINT idJogo_fase_grupo_pk PRIMARY KEY
                                         DEFAULT 0
-                                        CONSTRAINT fk_idJogo_fase_grupo_idJogo REFERENCES idJogo(Jogo) 
+                                        CONSTRAINT fk_idJogo_fase_grupo_idJogo REFERENCES Jogo(idJogo) 
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
@@ -79,10 +79,6 @@ CREATE TABLE Grupos
 (
     idGrupo             INTEGER         CONSTRAINT idGrupo_pk PRIMARY KEY
                                         DEFAULT 0,
-    idJogo_fase_grupo   INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idJogo_fase_grupo_idJogo_fase_grupo REFERENCES idJogo_fase_grupo(Jogo_grupo)
-                                        ON UPDATE CASCADE
-                                        ON DELETE SET DEFAULT,
 
     nome                TEXT            CONSTRAINT Grupos_nome_nn NOT NULL,
 
@@ -95,7 +91,7 @@ CREATE TABLE Equipa
     idEquipa            INTEGER         CONSTRAINT idEquipa_pk PRIMARY KEY
                                         DEFAULT 0,
     idGrupo             INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idGrupo_idGrupo REFERENCES idGrupo(Grupos)
+                                        CONSTRAINT fk_idGrupo_idGrupo REFERENCES Grupos(idGrupo)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     
@@ -115,7 +111,7 @@ CREATE TABLE Jogador
     idJogador           INTEGER         CONSTRAINT idJogador_pk PRIMARY KEY
                                         DEFAULT 0,
     idEquipa            INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idEquipa_idEquipa REFERENCES idEquipa(Equipa)
+                                        CONSTRAINT fk_idEquipa_idEquipa REFERENCES Equipa(idEquipa)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     numero              INTEGER         CONSTRAINT Jogador_numero_nn NOT NULL

@@ -57,16 +57,16 @@ INSERT INTO Jogador VALUES(22, 2, 13, 1.77, 74, "Enner Valencia", 1989-09-04);
 
 --Senegal
 INSERT INTO Jogador VALUES(23, 3, 1, 1.93, , "Seny Dieng", 1994-11-23);
-INSERT INTO Jogador VALUES(24, 3, 22, , , "Abdou Diallo", 1996-05-04);
-INSERT INTO Jogador VALUES(25, 3, 14, , , "Formose Mendy", 2001-01-02);
-INSERT INTO Jogador VALUES(26, 3, 4, , , "Pape Abou Cissé", 1995-09-14);
-INSERT INTO Jogador VALUES(27, 3, 2, , , "Fodé Ballo-Touré", 1997-01-03);
-INSERT INTO Jogador VALUES(28, 3, 17, , , "Pape Matar Sarr", 2002-09-14);
-INSERT INTO Jogador VALUES(29, 3, 15, , , "Krépin Diatta", 1999-02-25);
-INSERT INTO Jogador VALUES(30, 3, 26, , , "Pape Gueye", 1999-01-24);
-INSERT INTO Jogador VALUES(31, 3, 7, , , "Nicolas Jackson", 1990-02-19);
-INSERT INTO Jogador VALUES(32, 3, 10, , , "Sadio Mané", 1992-04-10);
-INSERT INTO Jogador VALUES(33, 3, 9, , , "Iliman Ndiaye", 2000-03-06);
+INSERT INTO Jogador VALUES(24, 3, 22, 1.87, 79, "Abdou Diallo", 1996-05-04);
+INSERT INTO Jogador VALUES(25, 3, 14, 1.91, 76, "Formose Mendy", 2001-01-02);
+INSERT INTO Jogador VALUES(26, 3, 4, 1.97, 83, "Pape Abou Cissé", 1995-09-14);
+INSERT INTO Jogador VALUES(27, 3, 2, 1.99, 100, "Fodé Ballo-Touré", 1997-01-03);
+INSERT INTO Jogador VALUES(28, 3, 17, 1.80, 80, "Pape Matar Sarr", 2002-09-14);
+INSERT INTO Jogador VALUES(29, 3, 15, 1.73, 68, "Krépin Diatta", 1999-02-25);
+INSERT INTO Jogador VALUES(30, 3, 26, 1.89, 79, "Pape Gueye", 1999-01-24);
+INSERT INTO Jogador VALUES(31, 3, 7, 1.86, 78, "Nicolas Jackson", 1990-02-19);
+INSERT INTO Jogador VALUES(32, 3, 10, 1.75, 69, "Sadio Mané", 1992-04-10);
+INSERT INTO Jogador VALUES(33, 3, 9, 1.87, 70, "Iliman Ndiaye", 2000-03-06);
 
 --Table Jogo
 --Grupos

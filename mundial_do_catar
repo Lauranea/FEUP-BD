@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T21:29:30.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nZmNuLf2_aiPoDyGD1CH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T21:33:36.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CocIa0IJEaRxSfepx6Tw" version="20.5.3" type="github">
   <diagram id="b6iRTGSkP2T137ZtDrt-" name="Página-1">
     <mxGraphModel dx="1662" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,12 +328,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zk8joJVXDgX85CwAK46r-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.125;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.013;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="91QWGKeNDce_z8wZ8fYj-46" target="Zlt7n82e8u7Fh-YO_4Xm-6">
+        <mxCell id="zk8joJVXDgX85CwAK46r-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.125;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="91QWGKeNDce_z8wZ8fYj-47" target="Zlt7n82e8u7Fh-YO_4Xm-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="728.5" as="sourcePoint" />
             <mxPoint x="390" y="250.01" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="703" />
+              <mxPoint x="230" y="725" />
               <mxPoint x="230" y="310" />
               <mxPoint x="310" y="310" />
               <mxPoint x="400" y="310" />
@@ -350,7 +350,7 @@
           <mxGeometry x="190" y="750" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zk8joJVXDgX85CwAK46r-7" value="Equipa 2" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="679.25" width="70" height="30" as="geometry" />
+          <mxGeometry x="230" y="693.75" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

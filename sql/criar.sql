@@ -135,6 +135,8 @@ CREATE TABLE Evento
 (
     idEvento            INTEGER         CONSTRAINT idEvento_pk PRIMARY KEY
                                         DEFAULT 0,
+    idJogo              INTEGER         CONSTRAINT fk_Evento_idJogo REFERENCES Jogo(idJogo)
+                                        DEFAULT 0,
     minuto              INTEGER         CONSTRAINT Evento_minuto_nn NOT NULL
                                         CONSTRAINT Evento_minuto_impossivel CHECK (minuto > 0)
 );
@@ -144,19 +146,19 @@ CREATE TABLE Golo
 (
     idGolo              INTEGER         CONSTRAINT idGolo_pk PRIMARY KEY AUTOINCREMENT
                                         DEFAULT 0
-                                        CONSTRAINT fk_idGolo_idEvento REFERENCES idEvento(Evento)
+                                        CONSTRAINT fk_idGolo_idEvento REFERENCES Evento(idEvento)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     idSofre             INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idSofre_idEquipa REFERENCES idEquipa(Equipa) 
+                                        CONSTRAINT fk_idSofre_idEquipa REFERENCES Equipa(idEquipa) 
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     idMarca             INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idMarca_idEquipa REFERENCES idEquipa(Equipa)  
+                                        CONSTRAINT fk_idMarca_idEquipa REFERENCES Equipa(idEquipa)  
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     idJogador           INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idJogador_idJogador REFERENCES idJogador(Jogador) 
+                                        CONSTRAINT fk_idJogador_idJogador REFERENCES Jogador(idJogador) 
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT
 );

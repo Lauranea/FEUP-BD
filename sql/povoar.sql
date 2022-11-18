@@ -178,7 +178,6 @@ INSERT INTO Jogo_elem VALUES(1, 1);
 INSERT INTO Jogo_elem VALUES(2, 1);
 INSERT INTO Jogo_elem VALUES(3, 2);
 
---Table Evento
-
-
---Table Golo
+--Table Evento / Golo
+INSERT INTO Evento VALUES(1, 1, 60);
+INSERT INTO Golo VALUES(1, 2, 1, 3);

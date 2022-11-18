@@ -117,7 +117,7 @@ CREATE TABLE Jogador
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     numero              INTEGER         CONSTRAINT Jogador_numero_nn NOT NULL
-                                        CONSTRAINT Jogador_numero_1_98 CHECK (numero >= 1 AND numero <= 98),
+                                        CONSTRAINT Jogador_numero_1_99 CHECK (numero >= 1 AND numero <= 99),
 
     altura              DECIMAL(1,2)    CONSTRAINT Jogador_altura_nn NOT NULL
                                         CONSTRAINT Jogador_alura_positiva CHECK (altura > 0),

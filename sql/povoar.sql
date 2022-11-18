@@ -181,3 +181,5 @@ INSERT INTO Jogo_elem VALUES(3, 2);
 --Table Evento / Golo
 INSERT INTO Evento VALUES(1, 1, 60);
 INSERT INTO Golo VALUES(1, 2, 1, 3);
+INSERT INTO Evento VALUES(2, 1, 83);
+INSERT INTO Golo VALUES(2, 2, 1, 5);

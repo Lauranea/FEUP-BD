@@ -18,15 +18,15 @@ INSERT INTO Grupos VALUES(2, "B");
 
 --Table Equipa
 --Grupo A
-INSERT INTO Equipa VALUES(1, 1, 0, "Catar", "Ásia", "QAT");
-INSERT INTO Equipa VALUES(2, 1, 0, "Equador", "América", "ECU");
-INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");
-INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");
+INSERT INTO Equipa VALUES(1, 1, 0, "Catar", "Ásia", "QAT"); --          | 7 pontos |
+INSERT INTO Equipa VALUES(2, 1, 0, "Equador", "América", "ECU");--      | 3 pontos |
+INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");--       | 6 pontos |
+INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");-- | 1 ponto  |
 --Grupo B
-INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");
-INSERT INTO Equipa VALUES(6, 2, 0, "Suécia", "Europa", "SWE");
-INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");
-INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");
+INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");--      | 9 pontos |
+INSERT INTO Equipa VALUES(6, 2, 0, "Suécia", "Europa", "SWE");--        | 4 pontos |
+INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");--      | 2 pontos |
+INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");--   | 1 ponto  |
 
 --Table Jogador
 --Catar
@@ -131,7 +131,7 @@ INSERT INTO Jogador VALUES(84, 8, 7,1.83 ,78, "Son Heung-min", 1992-07-08);
 INSERT INTO Jogador VALUES(85, 8,18,1.73 ,68, "Lee Kang-in", 2001-02-19);
 INSERT INTO Jogador VALUES(86, 8,22,1.74 ,66, "Kwon Chang-hoon", 1994-07-30);
 INSERT INTO Jogador VALUES(87, 8, 9,1.89 ,70, "Cho Gue-sung", 1998-01-25);
-INSERT INTO Jogador VALUES(88, 8,16,1.85 ,70, "Hwang Ui-jo", 1992-08-28);
+INSERT INTO Jogador VALUES(88, 8,16,1.45 ,60, "Ahdo Lph-gyu", 1938-08-28);
 
 --Table Jogo
 --Grupos
@@ -179,16 +179,99 @@ INSERT INTO Jogo_elem VALUES(2, 1);
 INSERT INTO Jogo_elem VALUES(3, 2);
 
 --Table Evento / Golo
---
+--w catar
 INSERT INTO Evento VALUES(1, 1, 60);
 INSERT INTO Golo VALUES(1, 2, 1, 3);
 INSERT INTO Evento VALUES(2, 1, 83);
 INSERT INTO Golo VALUES(2, 2, 1, 5);
---
+--w senegal
+INSERT INTO Evento VALUES(3, 2, 2);
+INSERT INTO Golo VALUES(3, 3, 4, 23);
+--w portugal
+INSERT INTO Evento VALUES(4, 3, 10);
+INSERT INTO Golo VALUES(4, 5, 6, 54);
+INSERT INTO Evento VALUES(5, 3, 20);
+INSERT INTO Golo VALUES(5, 5, 6, 54);
+INSERT INTO Evento VALUES(6, 3, 30);
+INSERT INTO Golo VALUES(6, 5, 6, 54);
+INSERT INTO Evento VALUES(7, 3, 40);
+INSERT INTO Golo VALUES(7, 5, 6, 54);
+INSERT INTO Evento VALUES(8, 3, 50);
+INSERT INTO Golo VALUES(8, 5, 6, 54);
+--e uruguai coreia
+
+--w catar
+INSERT INTO Evento VALUES(9, 5, 25);
+INSERT INTO Golo VALUES(9, 1, 3, 1);
+INSERT INTO Evento VALUES(10, 5, 60);
+INSERT INTO Golo VALUES(10, 3, 1, 28);
+INSERT INTO Evento VALUES(11, 5, 89);
+INSERT INTO Golo VALUES(11, 1, 3, 10);
+--w equador
+INSERT INTO Evento VALUES(12, 6, 78);
+INSERT INTO Golo VALUES(12, 2, 4, 17);
+--w portugal
+INSERT INTO Evento VALUES(13, 7, 10);
+INSERT INTO Golo VALUES(13, 5, 7, 54);
+INSERT INTO Evento VALUES(14, 7, 20);
+INSERT INTO Golo VALUES(14, 5, 7, 54);
+INSERT INTO Evento VALUES(15, 7, 30);
+INSERT INTO Golo VALUES(15, 5, 7, 54);
+INSERT INTO Evento VALUES(16, 7, 40);
+INSERT INTO Golo VALUES(16, 5, 7, 54);
+INSERT INTO Evento VALUES(17, 7, 50);
+INSERT INTO Golo VALUES(17, 5, 7, 54);
+--w suecia
+INSERT INTO Evento VALUES(18, 8, 88);
+INSERT INTO Golo VALUES(18, 6, 8, 66);
+--e catar paisesbaixos
+
+--w senegal
+INSERT INTO Evento VALUES(19, 10, 38);
+INSERT INTO Golo VALUES(19, 3, 2, 24);
+--w portugal
+INSERT INTO Evento VALUES(20, 11, 10);
+INSERT INTO Golo VALUES(20, 5, 8, 54);
+INSERT INTO Evento VALUES(21, 11, 20);
+INSERT INTO Golo VALUES(21, 5, 8, 54);
+INSERT INTO Evento VALUES(22, 11, 30);
+INSERT INTO Golo VALUES(22, 5, 8, 54);
+INSERT INTO Evento VALUES(23, 11, 40);
+INSERT INTO Golo VALUES(23, 5, 8, 54);
+INSERT INTO Evento VALUES(24, 11, 50);
+INSERT INTO Golo VALUES(24, 5, 8, 54);
+INSERT INTO Evento VALUES(25, 11, 60);
+INSERT INTO Golo VALUES(25, 5, 8, 45);
+--e suecia uruguai
 
 --
-INSERT INTO Evento VALUES(1, 1, 60);
-INSERT INTO Golo VALUES(1, 2, 1, 3);
-INSERT INTO Evento VALUES(2, 1, 83);
-INSERT INTO Golo VALUES(2, 2, 1, 5);
 --
+--w catar
+INSERT INTO Evento VALUES(26, 13, 67);
+INSERT INTO Golo VALUES(26, 1, 6, 1);
+--w portugal
+INSERT INTO Evento VALUES(27, 14, 10);
+INSERT INTO Golo VALUES(27, 5, 3, 54);
+INSERT INTO Evento VALUES(28, 14, 20);
+INSERT INTO Golo VALUES(28, 5, 3, 54);
+INSERT INTO Evento VALUES(29, 14, 30);
+INSERT INTO Golo VALUES(29, 5, 3, 54);
+INSERT INTO Evento VALUES(30, 14, 40);
+INSERT INTO Golo VALUES(30, 5, 3, 54);
+INSERT INTO Evento VALUES(31, 14, 50);
+INSERT INTO Golo VALUES(31, 5, 3, 54);
+INSERT INTO Evento VALUES(32, 14, 60);
+INSERT INTO Golo VALUES(32, 5, 3, 54);
+INSERT INTO Evento VALUES(33, 14, 70);
+INSERT INTO Golo VALUES(33, 5, 3, 54);
+INSERT INTO Evento VALUES(34, 14, 80);
+INSERT INTO Golo VALUES(34, 5, 3, 54);
+INSERT INTO Evento VALUES(35, 14, 90);
+INSERT INTO Golo VALUES(35, 5, 3, 54);
+INSERT INTO Evento VALUES(36, 14, 91);
+INSERT INTO Golo VALUES(36, 5, 3, 46);
+--
+--
+--wportugal
+INSERT INTO Evento VALUES(37, 15, 99);
+INSERT INTO Golo VALUES(37, 5, 1, 55);

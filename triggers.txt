@@ -1,10 +1,18 @@
 triggers:
-no fim do jogo adicionar pontos
 
-!!!!!quando lançam um jogo da fase de eliminacao fazer uma verificacao que emitia no trigger alguns alertas caso o jogo evolva equipas que nao ficaram nos 2 primeiros lugares na fase de grupos 
+trigger 1 c restrição:
+-quando lançam um jogo da fase de eliminacao fazer uma verificacao que emitia 
+no trigger alguns alertas caso o jogo evolva equipas que nao ficaram 
+nos 2 primeiros lugares na fase de grupos 
 
-depois das meias finais, insert do jogo de terceiro lugar/verificacao
+trigger 2:
+-na fase de eliminacao nnc podem ser inseridos mais do que 8 jogos
 
-na fase de eliminacao nnc podem ser inseridos mais do que 8 jogos
+trigger 3: (mais dificil)
+-joco c reviravolta e meter um trigger a ver se o golo nominuto cria uma reviravolta 
 
-trigger de manutencao de integridade referencial
+se nao der:
+-depois das meias finais, verificação do jogo de terceiro lugar
+
+
+

@@ -1,38 +1,37 @@
-Qual a equipa que marcou mais golos
+interrogaçao 1:
+-Qual a equipa que marcou mais golos               --
 
+interrogaçao 2:					?????
+-Quais os jogadores que não possuem alturas entre 1,75 e 1,85
+ que nao sejam do continente da europa
 
+interrogaçao 3:
+-Qual e o nome e equipa do jogador mais alto         --
 
-Qual o numero total de jogadores
+interrogaçao 4:
+-qual e a equipa com a menor soma de pesos
 
-
-Qual e o nome e equipa do jogador mais alto
-
-
-
-qual e a equipa com a menor soma de pesos
-
-
-
+interrogação 5:
 em qual estadio decorreram mais jogos
 
+interrogaçao 6:
+-Que jogo durou mais tempo
+
+interrogação 7:
+-Que Equipa venceu o mundial 
+
+interrogação 8:
+-Quais foram as 2 equipas que passaram a fase de eliminacao com mais pontos
+
+interrogaçao 9:
+-Quantos paises estao a participar no mundial no continente da europa 
+
+interrogação 10:
+-Quais sao os nomes dos jogadores do grupo A com mais de 25 anos e tem um nome com "h"
 
 
-Que jogo durou mais tempo
+quais os jogadores que nao marcaram golo/ que marcaram golo
 
 
-
-Que Equipa venceu o mundial 
-
-
-
-Quais foram as 2 equipas que passaram a fase de eliminacao com mais pontos
-
-
-Quantos paises estao a participar no mundial no continente da europa 
-
-
-Quais sao os nomes dos jogadores do grupo A com mais de 25 anos
-
-
-
-
+por not in e in
+REVER LIGAÇAO ENTRE JOGO E ESTADIO

@@ -26,7 +26,7 @@ interrogaçao 9:
 -Quantos paises estao a participar no mundial no continente da europa 
 
 interrogação 10:
--Quais sao os nomes dos jogadores do grupo A com mais de 25 anos e tem um nome com "h"
+-Quais sao os nomes dos jogadores do grupo A com mais de 25 anos e tem um nome com "h", ordenado pelo id do jogador
 
 
 quais os jogadores que nao marcaram golo/ que marcaram golo

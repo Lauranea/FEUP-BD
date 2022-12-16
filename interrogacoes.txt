@@ -2,17 +2,16 @@ interrogaçao 1:
 -Qual a equipa que marcou mais golos               --
 
 interrogaçao 2:					?????
--Quais os jogadores que não possuem alturas entre 1,75 e 1,85
- que nao sejam do continente da europa
+Quais os nomes dos jogadores que não possuem alturas entre 1,75 e 1,85 e que não sejam do continente da europa?
 
 interrogaçao 3:
--Qual e o nome e equipa do jogador mais alto         --
+Qual é o nome e equipa do jogador mais alto?       --
 
 interrogaçao 4:
--qual e a equipa com a menor soma de pesos
+qual e a equipa com a menor soma de pesos dos seus jogadores?
 
 interrogação 5:
-em qual estadio decorreram mais jogos
+em quais estádios decorreram o mesmo numero de jogos sendo que o mesmo teve 2 ou mais jogos?
 
 interrogaçao 6:
 -Que jogo durou mais tempo

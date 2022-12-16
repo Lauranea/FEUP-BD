@@ -10,11 +10,11 @@ Qual é o nome e equipa do jogador mais alto?       --
 interrogaçao 4:
 qual e a equipa com a menor soma de pesos dos seus jogadores?
 
-interrogação 5:
+interrogação 5:           melhorar perguntar
 em quais estádios decorreram o mesmo numero de jogos sendo que o mesmo teve 2 ou mais jogos?
 
 interrogaçao 6:
--Que jogo durou mais tempo
+-Que jogo durou mais tempo na fase de eliminaçao (/fase de grupos /total????)
 
 interrogação 7:
 -Que Equipa venceu o mundial 

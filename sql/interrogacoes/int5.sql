@@ -15,7 +15,7 @@ where es.idEstadio =j.idEstadio
 group by 1
 )
 
-select distinct t1.ESTADIO 
+select distinct t1.ESTADIO, t1.NRJOGOS
 from t1, t2
 where t1.ESTADIO != t2.ESTADIO and t1.NRJOGOS =t2.NRJOGOS 
 and t1.NRJOGOS >= 2 and t2.NRJOGOS >= 2;

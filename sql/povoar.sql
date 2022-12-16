@@ -148,10 +148,10 @@ INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "20:48:00", 4);
 
 --Meias de final
 INSERT INTO Jogo VALUES(13, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 1);
-INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 2);
+INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "20:47:00", 2);
 
 --Final
-INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 1);
+INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "20:50:00", 1);
 
 --Table Jogo de fase de grupos
 INSERT INTO Jogo_grupo VALUES(1, 1, 1);

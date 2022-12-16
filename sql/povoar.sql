@@ -7,10 +7,6 @@ INSERT INTO Estadio VALUES(1, "Lusail", "Lusail Iconic Stadium");
 INSERT INTO Estadio VALUES(2, "Al Khor", "Al Bayt Stadium");
 INSERT INTO Estadio VALUES(3, "Doha", "Stadium 974");
 INSERT INTO Estadio VALUES(4, "Doha", "Al Thumama Stadium");
-INSERT INTO Estadio VALUES(5, "Al Rayyan", "Khalifa International Stadium");
-INSERT INTO Estadio VALUES(6, "Al Rayyan", "Education City Stadium");
-INSERT INTO Estadio VALUES(7, "Al Rayyan", "Ahmad bin Ali Stadium");
-INSERT INTO Estadio VALUES(8, "Al Wakrah", "Al Janoub Stadium");
 
 --Table Grupos
 INSERT INTO Grupos VALUES(1, "A");
@@ -61,7 +57,7 @@ INSERT INTO Jogador VALUES(24, 3, 22, 1.87, 79, "Abdou Diallo", 1996-05-04);
 INSERT INTO Jogador VALUES(25, 3, 14, 1.91, 76, "Formose Mendy", 2001-01-02);
 INSERT INTO Jogador VALUES(26, 3, 4, 1.97, 83, "Pape Abou Cissé", 1995-09-14);
 INSERT INTO Jogador VALUES(27, 3, 2, 1.99, 100, "Fodé Ballo-Touré", 1997-01-03);
-INSERT INTO Jogador VALUES(28, 3, 17, 1.80, 130, "Pape Matar Sarr", 2002-09-14);
+INSERT INTO Jogador VALUES(28, 3, 17, 1.80, 90, "Pape Matar Sarr", 2002-09-14);
 INSERT INTO Jogador VALUES(29, 3, 15, 1.73, 68, "Krépin Diatta", 1999-02-25);
 INSERT INTO Jogador VALUES(30, 3, 26, 1.89, 79, "Pape Gueye", 1999-01-24);
 INSERT INTO Jogador VALUES(31, 3, 7, 1.86, 78, "Nicolas Jackson", 1990-02-19);
@@ -105,7 +101,7 @@ INSERT INTO Jogador VALUES(62, 6, 20,1.78 , 70 , "Kristoffer Olsson", 1995-06-30
 INSERT INTO Jogador VALUES(63, 6, 8,1.86 , 75 , "Albin Ekdal", 1989-07-28);
 INSERT INTO Jogador VALUES(64, 6, 11, 1.79 , 70 , "Jesper Karlsson", 1998-07-25);
 INSERT INTO Jogador VALUES(65, 6, 21, 1.86 , 80 , "Dejan Kulusevski", 2000-04-25);
-INSERT INTO Jogador VALUES(66, 6, 36, 2.35, 97, "Zlatan Ibrahimovic", 1981-10-03);
+INSERT INTO Jogador VALUES(66, 6, 36, 2.05, 97, "Zlatan Ibrahimovic", 1981-10-03);
 
 --uruguai
 INSERT INTO Jogador VALUES(67, 7, 1,1.90 ,84, "Fernando Muslera", 1986-06-16);
@@ -118,7 +114,7 @@ INSERT INTO Jogador VALUES(73, 7,10,1.72 ,73, "Giorgian de Arrascaeta", 1994-06-
 INSERT INTO Jogador VALUES(74, 7,15,1.82 ,78, "Federico Valverde", 1998-07-22);
 INSERT INTO Jogador VALUES(75, 7, 9,1.82 ,83, "Luis Suárez", 1987-01-24);
 INSERT INTO Jogador VALUES(76, 7,21,1.84 ,71, "Edinson Cavani", 1987-02-14);
-INSERT INTO Jogador VALUES(77, 7, 8,175. ,69, "Facundo Pellistri", 2001-12-20);
+INSERT INTO Jogador VALUES(77, 7, 8,1.75 ,69, "Facundo Pellistri", 2001-12-20);
 
 --coreia do sul
 INSERT INTO Jogador VALUES(78, 8, 1,1.87 ,76, "Kim Seung-gyu", 1990-09-30);
@@ -131,7 +127,7 @@ INSERT INTO Jogador VALUES(84, 8, 7,1.83 ,78, "Son Heung-min", 1992-07-08);
 INSERT INTO Jogador VALUES(85, 8,18,1.73 ,68, "Lee Kang-in", 2001-02-19);
 INSERT INTO Jogador VALUES(86, 8,22,1.74 ,66, "Kwon Chang-hoon", 1994-07-30);
 INSERT INTO Jogador VALUES(87, 8, 9,1.89 ,70, "Cho Gue-sung", 1998-01-25);
-INSERT INTO Jogador VALUES(88, 8,16,1.45 ,60, "Ahdo Lph-gyu", 1938-08-28);
+INSERT INTO Jogador VALUES(88, 8,16,1.65 ,60, "Ahdo Lph-gyu", 1998-08-28);
 
 --Table Jogo
 --Grupos
@@ -140,10 +136,10 @@ INSERT INTO Jogo VALUES(2, 3, 4, "2022-01-01", "19:00:00", "20:59:00", 2);
 INSERT INTO Jogo VALUES(3, 5, 6, "2022-01-01", "19:00:00", "20:56:00", 3);
 INSERT INTO Jogo VALUES(4, 7, 8, "2022-01-01", "19:00:00", "20:53:00", 4);
 
-INSERT INTO Jogo VALUES(5, 1, 3, "2022-01-08", "19:00:00", "20:49:00", 5);
-INSERT INTO Jogo VALUES(6, 2, 4, "2022-01-08", "19:00:00", "20:58:00", 6);
-INSERT INTO Jogo VALUES(7, 5, 7, "2022-01-08", "19:00:00", "20:57:00", 7);
-INSERT INTO Jogo VALUES(8, 6, 8, "2022-01-08", "19:00:00", "20:45:00", 8);
+INSERT INTO Jogo VALUES(5, 1, 3, "2022-01-08", "19:00:00", "20:49:00", 1);
+INSERT INTO Jogo VALUES(6, 2, 4, "2022-01-08", "19:00:00", "20:58:00", 2);
+INSERT INTO Jogo VALUES(7, 5, 7, "2022-01-08", "19:00:00", "20:57:00", 3);
+INSERT INTO Jogo VALUES(8, 6, 8, "2022-01-08", "19:00:00", "20:45:00", 4);
 
 INSERT INTO Jogo VALUES(9, 1, 4, "2022-01-15", "19:00:00", "20:46:00", 1);
 INSERT INTO Jogo VALUES(10, 2, 3, "2022-01-15", "19:00:00", "20:37:00", 2);
@@ -151,11 +147,11 @@ INSERT INTO Jogo VALUES(11, 5, 8, "2022-01-15", "19:00:00", "20:53:00", 3);
 INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "20:48:00", 4);
 
 --Meias de final
-INSERT INTO Jogo VALUES(13, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 5);
-INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 6);
+INSERT INTO Jogo VALUES(13, 1, 7, "2022-01-22", "19:00:00", "21:00:00", 1);
+INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "21:00:00", 2);
 
 --Final
-INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 7);
+INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "21:00:00", 1);
 
 --Table Jogo de fase de grupos
 INSERT INTO Jogo_grupo VALUES(1, 1, 1);
@@ -174,9 +170,9 @@ INSERT INTO Jogo_grupo VALUES(11, 2, 3);
 INSERT INTO Jogo_grupo VALUES(12, 2, 3);
 
 --Table Jogo de fase de eliminação
-INSERT INTO Jogo_elem VALUES(1, 1);
-INSERT INTO Jogo_elem VALUES(2, 1);
-INSERT INTO Jogo_elem VALUES(3, 2);
+INSERT INTO Jogo_elem VALUES(1, "Semi-Finals");
+INSERT INTO Jogo_elem VALUES(2, "Semi-Finals");
+INSERT INTO Jogo_elem VALUES(3, "Finals");
 
 --Table Evento / Golo
 --w catar

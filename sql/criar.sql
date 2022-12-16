@@ -149,12 +149,12 @@ CREATE TABLE Golo
                                         CONSTRAINT fk_idGolo_idEvento REFERENCES Evento(idEvento)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
-    idSofre             INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idSofre_idEquipa REFERENCES Equipa(idEquipa) 
+    idMarca             INTEGER         DEFAULT 0
+                                        CONSTRAINT fk_idMarca_idEquipa REFERENCES Equipa(idEquipa) 
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
-    idMarca             INTEGER         DEFAULT 0
-                                        CONSTRAINT fk_idMarca_idEquipa REFERENCES Equipa(idEquipa)  
+    idSofre             INTEGER         DEFAULT 0
+                                        CONSTRAINT fk_idSofre_idEquipa REFERENCES Equipa(idEquipa)  
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
     idJogador           INTEGER         DEFAULT 0

@@ -23,7 +23,7 @@ interrogação 8:
 -Quais foram as 2 equipas que passaram a fase de eliminacao com mais pontos
 
 interrogaçao 9:
--Quantos paises estao a participar no mundial no continente da europa 
+-Qual a média de golos por jogador marcador
 
 interrogação 10:
 -Quais sao os nomes dos jogadores do grupo A com mais de 25 anos e tem um nome com "h", ordenado pelo id do jogador

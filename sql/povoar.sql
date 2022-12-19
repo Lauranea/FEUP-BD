@@ -14,15 +14,15 @@ INSERT INTO Grupos VALUES(2, "B");
 
 --Table Equipa
 --Grupo A
-INSERT INTO Equipa VALUES(1, 1, 0, "Catar", "Ásia", "QAT"); --          | 7 pontos |
-INSERT INTO Equipa VALUES(2, 1, 0, "Equador", "América", "ECU");--      | 3 pontos |
-INSERT INTO Equipa VALUES(3, 1, 0, "Senegal", "África", "SEN");--       | 6 pontos |
-INSERT INTO Equipa VALUES(4, 1, 0, "Países Baixos", "Europa", "NED");-- | 1 ponto  |
+INSERT INTO Equipa VALUES(1, 1, 7, "Catar", "Ásia", "QAT"); --          | 7 pontos |
+INSERT INTO Equipa VALUES(2, 1, 3, "Equador", "América", "ECU");--      | 3 pontos |
+INSERT INTO Equipa VALUES(3, 1, 6, "Senegal", "África", "SEN");--       | 6 pontos |
+INSERT INTO Equipa VALUES(4, 1, 1, "Países Baixos", "Europa", "NED");-- | 1 ponto  |
 --Grupo B
-INSERT INTO Equipa VALUES(5, 2, 0, "Portugal", "Europa", "POR");--      | 9 pontos |
-INSERT INTO Equipa VALUES(6, 2, 0, "Suécia", "Europa", "SWE");--        | 4 pontos |
-INSERT INTO Equipa VALUES(7, 2, 0, "Uruguai", "América", "URU");--      | 2 pontos |
-INSERT INTO Equipa VALUES(8, 2, 0, "Coreia do Sul", "Ásia", "KOR");--   | 1 ponto  |
+INSERT INTO Equipa VALUES(5, 2, 9, "Portugal", "Europa", "POR");--      | 9 pontos |
+INSERT INTO Equipa VALUES(6, 2, 4, "Suécia", "Europa", "SWE");--        | 4 pontos |
+INSERT INTO Equipa VALUES(7, 2, 2, "Uruguai", "América", "URU");--      | 2 pontos |
+INSERT INTO Equipa VALUES(8, 2, 1, "Coreia do Sul", "Ásia", "KOR");--   | 1 ponto  |
 
 --Table Jogador
 --Catar

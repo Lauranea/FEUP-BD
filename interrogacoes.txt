@@ -20,10 +20,10 @@ interrogação 7:
 -Que Equipa venceu o mundial e quantos golos marcou na final
 
 interrogação 8:
--Quais foram as 2 equipas que passaram a fase de eliminacao com mais pontos
+-Quais foram as 2 equipas que passaram a eliminatoria
 
 interrogaçao 9:
--Qual a média de golos por jogador marcador
+-Quantos paises estao a participar no mundial no continente da europa 
 
 interrogação 10:
 -Quais sao os nomes dos jogadores do grupo A com mais de 25 anos e tem um nome com "h", ordenado pelo id do jogador

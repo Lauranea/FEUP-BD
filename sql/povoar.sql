@@ -88,7 +88,7 @@ INSERT INTO Jogador VALUES(51, 5, 26, 1.76 , 79 , "João Palhinha", 1993-02-21);
 INSERT INTO Jogador VALUES(52, 5, 11, 1.80 , 77 , "Bruno Fernandes", 1998-02-28);
 INSERT INTO Jogador VALUES(53, 5, 9, 1.85 , 80 , "André Silva", 1997-10-08);
 INSERT INTO Jogador VALUES(54, 5, 7, 1.90 , 80 , "Cristiano Ronaldo", 1990-08-27);
-INSERT INTO Jogador VALUES(55, 5, 99, 1.99 , 99 , "Éder", 1999-09-09);
+INSERT INTO Jogador VALUES(55, 5, 99, 1.90 , 81 , "Éder", 1999-09-09);
 
 --Suecia
 INSERT INTO Jogador VALUES(56, 6, 25, 1.98, 89, "Robin Olsen", 1990-01-08);
@@ -101,7 +101,7 @@ INSERT INTO Jogador VALUES(62, 6, 20,1.78 , 70 , "Kristoffer Olsson", 1995-06-30
 INSERT INTO Jogador VALUES(63, 6, 8,1.86 , 75 , "Albin Ekdal", 1989-07-28);
 INSERT INTO Jogador VALUES(64, 6, 11, 1.79 , 70 , "Jesper Karlsson", 1998-07-25);
 INSERT INTO Jogador VALUES(65, 6, 21, 1.86 , 80 , "Dejan Kulusevski", 2000-04-25);
-INSERT INTO Jogador VALUES(66, 6, 36, 2.05, 97, "Zlatan Ibrahimovic", 1981-10-03);
+INSERT INTO Jogador VALUES(66, 6, 36, 1.95, 97, "Zlatan Ibrahimovic", 1981-10-03);
 
 --uruguai
 INSERT INTO Jogador VALUES(67, 7, 1,1.90 ,84, "Fernando Muslera", 1986-06-16);
@@ -175,111 +175,97 @@ INSERT INTO Jogo_elem VALUES(14, "Semi-Finals");
 INSERT INTO Jogo_elem VALUES(15, "Finals");
 
 --Table Evento / Golo
---w catar
-INSERT INTO Evento VALUES(1, 1, 60);
+--w catar vs eq      2/0
+INSERT INTO Evento VALUES(1, 1, 60);                
 INSERT INTO Golo VALUES(1, 1, 2, 3);
 INSERT INTO Evento VALUES(2, 1, 83);
 INSERT INTO Golo VALUES(2, 1, 2, 5);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 1;
---w senegal
+
+--w senegal  vs paises b1/0
 INSERT INTO Evento VALUES(3, 2, 2);
-INSERT INTO Golo VALUES(3, 3, 4, 23);
+INSERT INTO Golo VALUES(3, 3, 4, 32);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 2;
---w portugal
+
+--w portugal vs suecia 3/1
 INSERT INTO Evento VALUES(4, 3, 10);
-INSERT INTO Golo VALUES(4, 5, 6, 54);
+INSERT INTO Golo VALUES(4, 5, 6, 55);
 INSERT INTO Evento VALUES(5, 3, 20);
-INSERT INTO Golo VALUES(5, 5, 6, 54);
+INSERT INTO Golo VALUES(5, 5, 6, 52);
 INSERT INTO Evento VALUES(6, 3, 30);
-INSERT INTO Golo VALUES(6, 5, 6, 54);
-INSERT INTO Evento VALUES(7, 3, 40);
-INSERT INTO Golo VALUES(7, 5, 6, 54);
+INSERT INTO Golo VALUES(6, 6, 5, 60);
 INSERT INTO Evento VALUES(8, 3, 50);
 INSERT INTO Golo VALUES(8, 5, 6, 54);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 3;
---e uruguai coreia
+
+--e uruguai coreia 0/0
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 4;
---w catar
+
+--w catar vs senegal 2/1
 INSERT INTO Evento VALUES(9, 5, 25);
-INSERT INTO Golo VALUES(9, 1, 3, 1);
+INSERT INTO Golo VALUES(9, 1, 3, 8);
 INSERT INTO Evento VALUES(10, 5, 60);
 INSERT INTO Golo VALUES(10, 3, 1, 28);
 INSERT INTO Evento VALUES(11, 5, 89);
 INSERT INTO Golo VALUES(11, 1, 3, 10);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 5;
---w equador
+
+--w equador vs pb 1/0
 INSERT INTO Evento VALUES(12, 6, 78);
 INSERT INTO Golo VALUES(12, 2, 4, 17);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 6;
---w portugal
+
+--w portugal vs urug 3/2
 INSERT INTO Evento VALUES(13, 7, 10);
-INSERT INTO Golo VALUES(13, 5, 7, 54);
+INSERT INTO Golo VALUES(13, 5, 7, 50);
 INSERT INTO Evento VALUES(14, 7, 20);
-INSERT INTO Golo VALUES(14, 5, 7, 54);
+INSERT INTO Golo VALUES(14, 7, 5, 74);
 INSERT INTO Evento VALUES(15, 7, 30);
-INSERT INTO Golo VALUES(15, 5, 7, 54);
+INSERT INTO Golo VALUES(15, 7, 5, 77);
 INSERT INTO Evento VALUES(16, 7, 40);
 INSERT INTO Golo VALUES(16, 5, 7, 54);
 INSERT INTO Evento VALUES(17, 7, 50);
-INSERT INTO Golo VALUES(17, 5, 7, 54);
+INSERT INTO Golo VALUES(17, 5, 7, 49);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 7;
---w suecia
+
+--w suecia vs coreia 1/0 
 INSERT INTO Evento VALUES(18, 8, 88);
 INSERT INTO Golo VALUES(18, 6, 8, 66);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 8;
---e catar paisesbaixos
+
+--e catar paisesbaixos 0/0
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 9;
---w senegal
+
+--w senegal vs eq 1/0
 INSERT INTO Evento VALUES(19, 10, 38);
-INSERT INTO Golo VALUES(19, 3, 2, 24);
+INSERT INTO Golo VALUES(19, 3, 2, 30);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 10;
---w portugal
+
+--w portugal vs coreia
 INSERT INTO Evento VALUES(20, 11, 10);
 INSERT INTO Golo VALUES(20, 5, 8, 54);
-INSERT INTO Evento VALUES(21, 11, 20);
-INSERT INTO Golo VALUES(21, 5, 8, 54);
-INSERT INTO Evento VALUES(22, 11, 30);
-INSERT INTO Golo VALUES(22, 5, 8, 54);
-INSERT INTO Evento VALUES(23, 11, 40);
-INSERT INTO Golo VALUES(23, 5, 8, 54);
-INSERT INTO Evento VALUES(24, 11, 50);
-INSERT INTO Golo VALUES(24, 5, 8, 54);
-INSERT INTO Evento VALUES(25, 11, 60);
-INSERT INTO Golo VALUES(25, 5, 8, 45);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 11;
---e suecia uruguai
+
+--e suecia uruguai 0/0
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 12;
 --
---
---w catar
+
+--w catar vs suecia 1/0
 INSERT INTO Evento VALUES(26, 13, 67);
-INSERT INTO Golo VALUES(26, 1, 6, 1);
+INSERT INTO Golo VALUES(26, 1, 6, 9);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 13;
---w portugal
+
+--w portugal vs sen 2/1
 INSERT INTO Evento VALUES(27, 14, 10);
 INSERT INTO Golo VALUES(27, 5, 3, 54);
 INSERT INTO Evento VALUES(28, 14, 20);
-INSERT INTO Golo VALUES(28, 5, 3, 54);
-INSERT INTO Evento VALUES(29, 14, 30);
-INSERT INTO Golo VALUES(29, 5, 3, 54);
-INSERT INTO Evento VALUES(30, 14, 40);
-INSERT INTO Golo VALUES(30, 5, 3, 54);
-INSERT INTO Evento VALUES(31, 14, 50);
-INSERT INTO Golo VALUES(31, 5, 3, 54);
-INSERT INTO Evento VALUES(32, 14, 60);
-INSERT INTO Golo VALUES(32, 5, 3, 54);
-INSERT INTO Evento VALUES(33, 14, 70);
-INSERT INTO Golo VALUES(33, 5, 3, 54);
-INSERT INTO Evento VALUES(34, 14, 80);
-INSERT INTO Golo VALUES(34, 5, 3, 54);
-INSERT INTO Evento VALUES(35, 14, 90);
-INSERT INTO Golo VALUES(35, 5, 3, 54);
+INSERT INTO Golo VALUES(28, 3, 5, 31);
 INSERT INTO Evento VALUES(36, 14, 91);
-INSERT INTO Golo VALUES(36, 5, 3, 46);
+INSERT INTO Golo VALUES(36, 5, 3, 49);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 14;
 --
 --
---wportugal
+--wportugal vs catar 1/0
 INSERT INTO Evento VALUES(37, 15, 99);
 INSERT INTO Golo VALUES(37, 5, 1, 55);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 15;

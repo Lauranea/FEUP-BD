@@ -1,4 +1,10 @@
-CREATE TRIGGER update_pontos_equipa1
+.mode columns
+.header on
+.nullvalue NULL
+
+PRAGMA foreign_keys = ON;
+
+CREATE TRIGGER IF NOT EXISTS update_pontos_equipa1
 AFTER UPDATE OF Acabado on Jogo
 FOR EACH ROW
 when exists 
@@ -38,7 +44,7 @@ BEGIN
     where idEquipa = old.idEquipa1;
 END;
 
-CREATE TRIGGER update_pontos_equipa2
+CREATE TRIGGER IF NOT EXISTS update_pontos_equipa2
 AFTER UPDATE OF Acabado on Jogo
 FOR EACH ROW
 when exists 
@@ -78,7 +84,7 @@ BEGIN
     where idEquipa = old.idEquipa2;
 END;
 
-CREATE TRIGGER update_pontos_equipa1_equipa2
+CREATE TRIGGER IF NOT EXISTS update_pontos_equipa1_equipa2
 AFTER UPDATE OF Acabado on Jogo
 FOR EACH ROW
 when exists 

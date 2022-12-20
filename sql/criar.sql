@@ -30,10 +30,14 @@ CREATE TABLE Jogo
     hora_inicio         TIME            CONSTRAINT Jogo_hora_inicio_nn NOT NULL,
     hora_fim            TIME            CONSTRAINT Jogo_hora_fim_nn NOT NULL,
 
-    idEstadio             INTEGER         DEFAULT 0
+    idEstadio           INTEGER         DEFAULT 0
         	                            CONSTRAINT fk_estadio_estadio REFERENCES Estadio(idEstadio)
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
+
+    Acabado             INTEGER         DEFAULT 0
+                                        CONSTRAINT Jogo_Acabado_nn NOT NULL
+                                        CONSTRAINT Jogo_Acabado_Invalido check (Acabado == 0 or Acabado == 1),
 
     CONSTRAINT Jogo_hora_fim_maior_hora_inicio CHECK (hora_fim > hora_inicio)
 

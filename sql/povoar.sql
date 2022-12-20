@@ -131,27 +131,27 @@ INSERT INTO Jogador VALUES(88, 8,16,1.65 ,60, "Ahdo Lph-gyu", 1998-08-28);
 
 --Table Jogo
 --Grupos
-INSERT INTO Jogo VALUES(1, 1, 2, "2022-01-01", "19:00:00", "20:42:00", 1);
-INSERT INTO Jogo VALUES(2, 3, 4, "2022-01-01", "19:00:00", "20:59:00", 2);
-INSERT INTO Jogo VALUES(3, 5, 6, "2022-01-01", "19:00:00", "20:56:00", 3);
-INSERT INTO Jogo VALUES(4, 7, 8, "2022-01-01", "19:00:00", "20:53:00", 4);
+INSERT INTO Jogo VALUES(1, 1, 2, "2022-01-01", "19:00:00", "20:42:00", 1, 0);
+INSERT INTO Jogo VALUES(2, 3, 4, "2022-01-01", "19:00:00", "20:59:00", 2, 0);
+INSERT INTO Jogo VALUES(3, 5, 6, "2022-01-01", "19:00:00", "20:56:00", 3, 0);
+INSERT INTO Jogo VALUES(4, 7, 8, "2022-01-01", "19:00:00", "20:53:00", 4, 0);
 
-INSERT INTO Jogo VALUES(5, 1, 3, "2022-01-08", "19:00:00", "20:49:00", 1);
-INSERT INTO Jogo VALUES(6, 2, 4, "2022-01-08", "19:00:00", "20:58:00", 2);
-INSERT INTO Jogo VALUES(7, 5, 7, "2022-01-08", "19:00:00", "20:57:00", 3);
-INSERT INTO Jogo VALUES(8, 6, 8, "2022-01-08", "19:00:00", "20:45:00", 4);
+INSERT INTO Jogo VALUES(5, 1, 3, "2022-01-08", "19:00:00", "20:49:00", 1, 0);
+INSERT INTO Jogo VALUES(6, 2, 4, "2022-01-08", "19:00:00", "20:58:00", 2, 0);
+INSERT INTO Jogo VALUES(7, 5, 7, "2022-01-08", "19:00:00", "20:57:00", 3, 0);
+INSERT INTO Jogo VALUES(8, 6, 8, "2022-01-08", "19:00:00", "20:45:00", 4, 0);
 
-INSERT INTO Jogo VALUES(9, 1, 4, "2022-01-15", "19:00:00", "20:46:00", 1);
-INSERT INTO Jogo VALUES(10, 2, 3, "2022-01-15", "19:00:00", "20:37:00", 2);
-INSERT INTO Jogo VALUES(11, 5, 8, "2022-01-15", "19:00:00", "20:53:00", 3);
-INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "20:48:00", 4);
+INSERT INTO Jogo VALUES(9, 1, 4, "2022-01-15", "19:00:00", "20:46:00", 1, 0);
+INSERT INTO Jogo VALUES(10, 2, 3, "2022-01-15", "19:00:00", "20:37:00", 2, 0);
+INSERT INTO Jogo VALUES(11, 5, 8, "2022-01-15", "19:00:00", "20:53:00", 3, 0);
+INSERT INTO Jogo VALUES(12, 6, 7, "2022-01-15", "19:00:00", "20:48:00", 4, 0);
 
 --Meias de final
-INSERT INTO Jogo VALUES(13, 1, 6, "2022-01-22", "19:00:00", "21:00:00", 1);
-INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "20:47:00", 2);
+INSERT INTO Jogo VALUES(13, 1, 6, "2022-01-22", "19:00:00", "21:00:00", 1, 0);
+INSERT INTO Jogo VALUES(14, 3, 5, "2022-01-22", "19:00:00", "20:47:00", 2, 0);
 
 --Final
-INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "20:50:00", 1);
+INSERT INTO Jogo VALUES(15, 1, 5, "2022-01-29", "19:00:00", "20:50:00", 1, 0);
 
 --Table Jogo de fase de grupos
 INSERT INTO Jogo_grupo VALUES(1, 1, 1);
@@ -180,9 +180,11 @@ INSERT INTO Evento VALUES(1, 1, 60);
 INSERT INTO Golo VALUES(1, 2, 1, 3);
 INSERT INTO Evento VALUES(2, 1, 83);
 INSERT INTO Golo VALUES(2, 2, 1, 5);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 1;
 --w senegal
 INSERT INTO Evento VALUES(3, 2, 2);
 INSERT INTO Golo VALUES(3, 3, 4, 23);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 2;
 --w portugal
 INSERT INTO Evento VALUES(4, 3, 10);
 INSERT INTO Golo VALUES(4, 5, 6, 54);
@@ -194,8 +196,9 @@ INSERT INTO Evento VALUES(7, 3, 40);
 INSERT INTO Golo VALUES(7, 5, 6, 54);
 INSERT INTO Evento VALUES(8, 3, 50);
 INSERT INTO Golo VALUES(8, 5, 6, 54);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 3;
 --e uruguai coreia
-
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 4;
 --w catar
 INSERT INTO Evento VALUES(9, 5, 25);
 INSERT INTO Golo VALUES(9, 1, 3, 1);
@@ -203,9 +206,11 @@ INSERT INTO Evento VALUES(10, 5, 60);
 INSERT INTO Golo VALUES(10, 3, 1, 28);
 INSERT INTO Evento VALUES(11, 5, 89);
 INSERT INTO Golo VALUES(11, 1, 3, 10);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 5;
 --w equador
 INSERT INTO Evento VALUES(12, 6, 78);
 INSERT INTO Golo VALUES(12, 2, 4, 17);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 6;
 --w portugal
 INSERT INTO Evento VALUES(13, 7, 10);
 INSERT INTO Golo VALUES(13, 5, 7, 54);
@@ -217,14 +222,17 @@ INSERT INTO Evento VALUES(16, 7, 40);
 INSERT INTO Golo VALUES(16, 5, 7, 54);
 INSERT INTO Evento VALUES(17, 7, 50);
 INSERT INTO Golo VALUES(17, 5, 7, 54);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 7;
 --w suecia
 INSERT INTO Evento VALUES(18, 8, 88);
 INSERT INTO Golo VALUES(18, 6, 8, 66);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 8;
 --e catar paisesbaixos
-
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 9;
 --w senegal
 INSERT INTO Evento VALUES(19, 10, 38);
 INSERT INTO Golo VALUES(19, 3, 2, 24);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 10;
 --w portugal
 INSERT INTO Evento VALUES(20, 11, 10);
 INSERT INTO Golo VALUES(20, 5, 8, 54);
@@ -238,13 +246,15 @@ INSERT INTO Evento VALUES(24, 11, 50);
 INSERT INTO Golo VALUES(24, 5, 8, 54);
 INSERT INTO Evento VALUES(25, 11, 60);
 INSERT INTO Golo VALUES(25, 5, 8, 45);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 11;
 --e suecia uruguai
-
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 12;
 --
 --
 --w catar
 INSERT INTO Evento VALUES(26, 13, 67);
 INSERT INTO Golo VALUES(26, 1, 6, 1);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 13;
 --w portugal
 INSERT INTO Evento VALUES(27, 14, 10);
 INSERT INTO Golo VALUES(27, 5, 3, 54);
@@ -266,8 +276,10 @@ INSERT INTO Evento VALUES(35, 14, 90);
 INSERT INTO Golo VALUES(35, 5, 3, 54);
 INSERT INTO Evento VALUES(36, 14, 91);
 INSERT INTO Golo VALUES(36, 5, 3, 46);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 14;
 --
 --
 --wportugal
 INSERT INTO Evento VALUES(37, 15, 99);
 INSERT INTO Golo VALUES(37, 5, 1, 55);
+UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 15;

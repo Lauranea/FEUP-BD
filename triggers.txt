@@ -9,6 +9,11 @@ Actual trigger 1, não sei se tem restrição
 -quando e inserido um novo tuple na tabela Jogo_elem, ignora esta inserção caso 
 evolva equipas não apuradas e remove o seu correspondente da tabela Jogo
 
+actual 2:
+da update aos pontos de cada equipa no fim de cada jogo
+
+
+
 trigger 2:
 -na fase de eliminacao nnc podem ser inseridos mais do que 8 jogos
 
@@ -17,6 +22,4 @@ trigger 3: (mais dificil)
 
 se nao der:
 -depois das meias finais, verificação do jogo de terceiro lugar
-
-
 

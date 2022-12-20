@@ -29,3 +29,4 @@ BEGIN
     DELETE from jogo where new.idJogo_fase_elem = idJogo;
     SELECT RAISE(IGNORE);
 END;
+

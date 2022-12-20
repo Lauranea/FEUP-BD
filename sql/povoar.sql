@@ -177,9 +177,9 @@ INSERT INTO Jogo_elem VALUES(15, "Finals");
 --Table Evento / Golo
 --w catar
 INSERT INTO Evento VALUES(1, 1, 60);
-INSERT INTO Golo VALUES(1, 2, 1, 3);
+INSERT INTO Golo VALUES(1, 1, 2, 3);
 INSERT INTO Evento VALUES(2, 1, 83);
-INSERT INTO Golo VALUES(2, 2, 1, 5);
+INSERT INTO Golo VALUES(2, 1, 2, 5);
 UPDATE Jogo SET Acabado = 1 WHERE Jogo.idJogo = 1;
 --w senegal
 INSERT INTO Evento VALUES(3, 2, 2);

@@ -9,5 +9,5 @@ and je.fase = 'Finals'
 and (e.idEquipa = j.idEquipa1 or e.idEquipa = j.idEquipa2)
 and (g.idMarca = e.idEquipa) 
 group by 1
-order by desc
+order by 2 desc
 limit 1;

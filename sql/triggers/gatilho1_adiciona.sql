@@ -1,4 +1,10 @@
-CREATE TRIGGER equipas_validas
+.mode columns
+.header on
+.nullvalue NULL
+
+PRAGMA foreign_keys = ON;
+
+CREATE TRIGGER IF NOT EXISTS equipas_validas
 BEFORE INSERT ON Jogo_elem
 FOR EACH ROW
 WHEN exists

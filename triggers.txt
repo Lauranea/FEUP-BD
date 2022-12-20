@@ -5,6 +5,10 @@ trigger 1 c restrição:
 no trigger alguns alertas caso o jogo evolva equipas que nao ficaram 
 nos 2 primeiros lugares na fase de grupos 
 
+Actual trigger 1, não sei se tem restrição
+-quando e inserido um novo tuple na tabela Jogo_elem, ignora esta inserção caso 
+evolva equipas não apuradas e remove o seu correspondente da tabela Jogo
+
 trigger 2:
 -na fase de eliminacao nnc podem ser inseridos mais do que 8 jogos
 

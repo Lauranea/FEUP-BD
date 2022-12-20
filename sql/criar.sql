@@ -2,16 +2,6 @@ PRAGMA foreign_keys = ON;
 
 
 
-
---ON DELETE SET NULL / ON UPDATE SET NULL: places the NULL value in the foreign key
---of tuples that reference the removed/changed tuple.
---ON DELETE SET DEFAULT / ON UPDATE SET DEFAULT: places the default value in the
---foreign key of tuples that refer to the removed/changed tuple.
---ON DELETE CASCADE: removes all tuples that reference the removed tuple.
---ON UPDATE CASCADE: updates the foreign key of the tuples that refer to the changed
---tuple with the new value.
-
-
 --Table Estadio
 CREATE TABLE Estadio
 (

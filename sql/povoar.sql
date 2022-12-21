@@ -170,9 +170,9 @@ INSERT INTO Jogo_grupo VALUES(11, 2, 3);
 INSERT INTO Jogo_grupo VALUES(12, 2, 3);
 
 --Table Jogo de fase de eliminação
-INSERT INTO Jogo_elem VALUES(13, "Semi-Finals");
-INSERT INTO Jogo_elem VALUES(14, "Semi-Finals");
-INSERT INTO Jogo_elem VALUES(15, "Finals");
+INSERT INTO Jogo_elem VALUES(13, "Semi-Finais");
+INSERT INTO Jogo_elem VALUES(14, "Semi-Finais");
+INSERT INTO Jogo_elem VALUES(15, "Final");
 
 --Table Evento / Golo
 --w catar vs eq      2/0

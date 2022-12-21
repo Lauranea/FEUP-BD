@@ -53,7 +53,7 @@ CREATE TABLE Jogo_elem
                                         ON UPDATE CASCADE
                                         ON DELETE SET DEFAULT,
 
-    fase TEXT                           CONSTRAINT Jogo_elem_fase_nn NOT NULL
+    fase                TEXT            CONSTRAINT Jogo_elem_fase_nn NOT NULL
 );
 
 --Table Jogo de fase de grupos

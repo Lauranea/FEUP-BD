@@ -2,6 +2,7 @@
 .headers on
 .nullvalue NULL
 
+--é necessário ler o gatilho 2 antes do povoar para esta interrogação funcionar
 with t1 as
 (
     select e1.sigla as pais, count(*) as maiores, e1.idGrupo as grupo
@@ -13,4 +14,4 @@ with t1 as
 
 select t1.pais
 from t1
-where t1.maiores > 1
+where t1.maiores > 1;

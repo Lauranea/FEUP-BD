@@ -4,7 +4,7 @@
 
 PRAGMA foreign_keys = ON;
 
-CREATE TRIGGER IF NOT EXISTS abc
+CREATE TRIGGER IF NOT EXISTS jogos_elem_validos
 BEFORE INSERT ON Jogo_elem
 FOR EACH ROW
 when exists 

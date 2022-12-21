@@ -113,10 +113,10 @@ CREATE TABLE Jogador
     numero              INTEGER         CONSTRAINT Jogador_numero_nn NOT NULL
                                         CONSTRAINT Jogador_numero_1_99 CHECK (numero >= 1 AND numero <= 99),
 
-    altura              DECIMAL(1,2)    CONSTRAINT Jogador_altura_nn NOT NULL
-                                        CONSTRAINT Jogador_alura_positiva CHECK (altura > 0),
-    peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL
-                                        CONSTRAINT Jogador_peso_positivo CHECK (peso > 0),
+    altura              DECIMAL(1,2)    CONSTRAINT Jogador_altura_nn NOT NULL,
+                                        
+    peso                FLOAT           CONSTRAINT Jogador_peso_nn NOT NULL,
+                                        
     
     nome                TEXT            CONSTRAINT Jogador_nome_nn NOT NULL,
 

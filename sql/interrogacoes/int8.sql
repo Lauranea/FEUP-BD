@@ -13,4 +13,4 @@ with t1 as
 
 select t1.pais
 from t1
-where t1.maiores > 1
+where t1.maiores > 1;

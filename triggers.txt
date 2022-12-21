@@ -15,7 +15,7 @@ da update aos pontos de cada equipa no fim de cada jogo
 
 
 trigger 2:
--na fase de eliminacao nnc podem ser inseridos mais do que 8 jogos
+-na fase de eliminacao nnc podem ser inseridos mais do que os jogos permitidos por fase
 
 trigger 3: (mais dificil)
 -joco c reviravolta e meter um trigger a ver se o golo nominuto cria uma reviravolta 
